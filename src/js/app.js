@@ -45,45 +45,27 @@ document.addEventListener('DOMContentLoaded', e => {
     // 
 
     // add to favorite
-    // -------------------------------------------------
-    
-    
-    // var addfavorite = document.getElementsByClassName('add-favorite');
-    // var container2 = document.querySelector('.tickets-sections .row');
-    // var favorite_place = document.getElementsByClassName('favorites');
-    // var favorite_place = document.querySelector('.favorite');
+    // ------------------------------------------------
 
     var container_drop = document.getElementById('dropdown1');
     var addfavorite = document.getElementsByClassName('add-favorite');
     console.log(addfavorite);
 
-    function foo (tid) {
+    function on_click_favor (tid) {
       let fragment2 = '';
       fragment2 += fav_content(locations.lastSearch, tid, currencySymbol);
       container_drop.insertAdjacentHTML("afterbegin", fragment2);
-
-      // var tid = document.querySelector('.ticket-id').getAttribute('value');
-      // var favor = document.querySelector(".add-favorite");
-      // var fav_select = favor.closest(".ticket-card").outerHTML;
-      // function fav_return() { return `${fav_select}`};
-      // function fav_return2() { return fav_select};
-
-      // console.log(tid);
-      // console.log(addfavorite);
-      // console.log(`${fav_select}`);
-      // console.log(fav_return2());
-      // favorite_place[0].innerHTML = fav_select;
     };
 
-    var links_as_arr = Array.from(addfavorite);
+    var addfavorite_as_arr = Array.from(addfavorite);
 
-    links_as_arr.forEach(element => {
+    addfavorite_as_arr.forEach(element => {
       element.addEventListener('click', e => {
         e.preventDefault();
         var tid = e.currentTarget.getAttribute('value')
         console.log(tid)
-        foo(tid);
-        // delete favorite
+        on_click_favor(tid);
+        // delete favorite tickets
         var delfavorite = document.getElementsByClassName('delete-favorite');
         var del_as_arr = Array.from(delfavorite);
         console.log(del_as_arr);
@@ -105,7 +87,7 @@ document.addEventListener('DOMContentLoaded', e => {
     // function clearContainer2() {
     //   container2.innerHTML = '';
     // }
-    // addfavorite[0].addEventListener('click', foo, true);
+    // addfavorite[0].addEventListener('click', on_click_favor, true);
 
     var currencySymbol = currencyUI.getCurrencySymbol();
     
