@@ -1,6 +1,6 @@
-import '../css/style.css';
-import '../css/DarkReader-style.css'; 
+import '../css/style.css'; 
 import './plugins';
+import '../css/DarkReader-style.css';
 import locations from './store/locations';
 import formUI from './views/form';
 import currencyUI from './views/currency';
