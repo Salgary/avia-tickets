@@ -1,4 +1,5 @@
 import '../css/style.css';
+import '../css/DarkReader-style.css'; 
 import './plugins';
 import locations from './store/locations';
 import formUI from './views/form';

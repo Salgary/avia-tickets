@@ -182,6 +182,3456 @@ flex: 1 0 auto;
 footer.page-footer {
   padding-top: 0px;
 }
+/*
+                        _______
+                       /       \
+                      .==.    .==.
+                     ((  ))==((  ))
+                    / "=="    "=="\
+                   /____|| || ||___\
+       ________     ____    ________  ___    ___
+       |  ___  \   /    \   |  ___  \ |  |  /  /
+       |  |  \  \ /  /\  \  |  |  \  \|  |_/  /
+       |  |   )  /  /__\  \ |  |__/  /|  ___  \
+       |  |__/  /  ______  \|  ____  \|  |  \  \
+_______|_______/__/ ____ \__\__|___\__\__|___\__\____
+|  ___  \ |  ____/ /    \   |  ___  \ |  ____|  ___  \
+|  |  \  \|  |___ /  /\  \  |  |  \  \|  |___|  |  \  \
+|  |__/  /|  ____/  /__\  \ |  |   )  |  ____|  |__/  /
+|  ____  \|  |__/  ______  \|  |__/  /|  |___|  ____  \
+|__|   \__\____/__/      \__\_______/ |______|__|   \__\
+                https://darkreader.org
+*/
+
+/*! Dark reader generated CSS | Licensed under MIT https://github.com/darkreader/darkreader/blob/master/LICENSE */
+
+/* User-Agent Style */
+html {
+    background-color: #181a1b !important;
+}
+html, body, input, textarea, select, button {
+    background-color: #181a1b;
+}
+html, body, input, textarea, select, button {
+    border-color: #736b5e;
+    color: #e8e6e3;
+}
+a {
+    color: #3391ff;
+}
+table {
+    border-color: #545b5e;
+}
+::-moz-placeholder {
+    color: #b2aba1;
+}
+:-ms-input-placeholder {
+    color: #b2aba1;
+}
+::placeholder {
+    color: #b2aba1;
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    background-color: #555b00 !important;
+    color: #e8e6e3 !important;
+}
+::-webkit-scrollbar {
+    background-color: #202324;
+    color: #aba499;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #454a4d;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #575e62;
+}
+::-webkit-scrollbar-thumb:active {
+    background-color: #484e51;
+}
+::-webkit-scrollbar-corner {
+    background-color: #181a1b;
+}
+::-moz-selection {
+    background-color: #004daa !important;
+    color: #e8e6e3 !important;
+}
+::selection {
+    background-color: #004daa !important;
+    color: #e8e6e3 !important;
+}
+::-moz-selection {
+    background-color: #004daa !important;
+    color: #e8e6e3 !important;
+}
+
+/* Invert Style */
+.jfk-bubble.gtx-bubble, .captcheck_answer_label > input + img, span#closed_text > img[src^="https://www.gstatic.com/images/branding/googlelogo"], span[data-href^="https://www.hcaptcha.com/"] > #icon, #bit-notification-bar-iframe, ::-webkit-calendar-picker-indicator {
+    filter: invert(100%) hue-rotate(180deg) contrast(90%) !important;
+}
+
+/* Variables Style */
+:root {
+   --darkreader-neutral-background: #131516;
+   --darkreader-neutral-text: #d8d4cf;
+   --darkreader-selection-background: #004daa;
+   --darkreader-selection-text: #e8e6e3;
+}
+
+/* Modified CSS */
+.header .currency-select input.select-dropdown {
+    color: rgb(232, 230, 227);
+    border-bottom-color: currentColor;
+    border-bottom-color: initial;
+}
+.header .currency-select input.select-dropdown:focus {
+    border-bottom-color: currentColor;
+    border-bottom-color: initial;
+}
+.header .currency-select .caret {
+    fill: rgb(232, 230, 227);
+}
+.favorites .dropdown-content {
+    color: rgb(232, 230, 227);
+}
+.favorites .favorite-item-destination {
+    border-bottom-color: rgb(84, 91, 94);
+}
+.ticket-destination {
+    border-bottom-color: rgb(84, 91, 94);
+}
+.ticket-time-departure {
+    color: rgb(152, 143, 129);
+}
+.ticket-price {
+    background-image: none;
+    background-image: initial;
+    background-color: rgb(85, 22, 123);
+    color: rgb(232, 230, 227);
+}
+.tickets-empty-res-msg {
+    background-image: none;
+    background-image: initial;
+    background-color: rgb(30, 32, 33);
+}
+.materialize-red {
+    background-color: rgb(182, 21, 26) !important;
+}
+.materialize-red-text {
+    color: rgb(232, 50, 57) !important;
+}
+.materialize-red.lighten-5 {
+    background-color: rgb(59, 6, 8) !important;
+}
+.materialize-red-text.text-lighten-5 {
+    color: rgb(249, 194, 197) !important;
+}
+.materialize-red.lighten-4 {
+    background-color: rgb(83, 9, 12) !important;
+}
+.materialize-red-text.text-lighten-4 {
+    color: rgb(245, 166, 169) !important;
+}
+.materialize-red.lighten-3 {
+    background-color: rgb(107, 13, 16) !important;
+}
+.materialize-red-text.text-lighten-3 {
+    color: rgb(241, 137, 141) !important;
+}
+.materialize-red.lighten-2 {
+    background-color: rgb(133, 16, 20) !important;
+}
+.materialize-red-text.text-lighten-2 {
+    color: rgb(238, 108, 113) !important;
+}
+.materialize-red.lighten-1 {
+    background-color: rgb(157, 18, 23) !important;
+}
+.materialize-red-text.text-lighten-1 {
+    color: rgb(235, 79, 85) !important;
+}
+.materialize-red.darken-1 {
+    background-color: rgb(166, 19, 24) !important;
+}
+.materialize-red-text.text-darken-1 {
+    color: rgb(233, 64, 69) !important;
+}
+.materialize-red.darken-2 {
+    background-color: rgb(148, 17, 22) !important;
+}
+.materialize-red-text.text-darken-2 {
+    color: rgb(235, 80, 85) !important;
+}
+.materialize-red.darken-3 {
+    background-color: rgb(130, 15, 19) !important;
+}
+.materialize-red-text.text-darken-3 {
+    color: rgb(236, 96, 101) !important;
+}
+.materialize-red.darken-4 {
+    background-color: rgb(111, 13, 16) !important;
+}
+.materialize-red-text.text-darken-4 {
+    color: rgb(239, 112, 116) !important;
+}
+.red {
+    background-color: rgb(169, 20, 9) !important;
+}
+.red-text {
+    color: rgb(245, 78, 66) !important;
+}
+.red.lighten-5 {
+    background-color: rgb(63, 0, 9) !important;
+}
+.red-text.text-lighten-5 {
+    color: rgb(255, 190, 200) !important;
+}
+.red.lighten-4 {
+    background-color: rgb(81, 0, 8) !important;
+}
+.red-text.text-lighten-4 {
+    color: rgb(255, 169, 178) !important;
+}
+.red.lighten-3 {
+    background-color: rgb(105, 17, 17) !important;
+}
+.red-text.text-lighten-3 {
+    color: rgb(237, 140, 140) !important;
+}
+.red.lighten-2 {
+    background-color: rgb(127, 24, 24) !important;
+}
+.red-text.text-lighten-2 {
+    color: rgb(229, 114, 114) !important;
+}
+.red.lighten-1 {
+    background-color: rgb(152, 16, 14) !important;
+}
+.red-text.text-lighten-1 {
+    color: rgb(240, 89, 86) !important;
+}
+.red.darken-1 {
+    background-color: rgb(166, 25, 21) !important;
+}
+.red-text.text-darken-1 {
+    color: rgb(231, 72, 68) !important;
+}
+.red.darken-2 {
+    background-color: rgb(167, 35, 35) !important;
+}
+.red-text.text-darken-2 {
+    color: rgb(215, 67, 67) !important;
+}
+.red.darken-3 {
+    background-color: rgb(158, 32, 32) !important;
+}
+.red-text.text-darken-3 {
+    color: rgb(218, 74, 74) !important;
+}
+.red.darken-4 {
+    background-color: rgb(146, 22, 22) !important;
+}
+.red-text.text-darken-4 {
+    color: rgb(229, 83, 83) !important;
+}
+.red.accent-1 {
+    background-color: rgb(127, 10, 0) !important;
+}
+.red-text.text-accent-1 {
+    color: rgb(255, 126, 115) !important;
+}
+.red.accent-2 {
+    background-color: rgb(155, 0, 0) !important;
+}
+.red-text.text-accent-2 {
+    color: rgb(255, 83, 83) !important;
+}
+.red.accent-3 {
+    background-color: rgb(190, 0, 37) !important;
+}
+.red-text.text-accent-3 {
+    color: rgb(255, 42, 83) !important;
+}
+.red.accent-4 {
+    background-color: rgb(170, 0, 0) !important;
+}
+.red-text.text-accent-4 {
+    color: rgb(255, 55, 55) !important;
+}
+.pink {
+    background-color: rgb(181, 18, 73) !important;
+}
+.pink-text {
+    color: rgb(235, 51, 114) !important;
+}
+.pink.lighten-5 {
+    background-color: rgb(62, 7, 25) !important;
+}
+.pink-text.text-lighten-5 {
+    color: rgb(248, 190, 209) !important;
+}
+.pink.lighten-4 {
+    background-color: rgb(87, 9, 36) !important;
+}
+.pink-text.text-lighten-4 {
+    color: rgb(245, 161, 190) !important;
+}
+.pink.lighten-3 {
+    background-color: rgb(114, 11, 46) !important;
+}
+.pink-text.text-lighten-3 {
+    color: rgb(243, 130, 168) !important;
+}
+.pink.lighten-2 {
+    background-color: rgb(141, 13, 56) !important;
+}
+.pink-text.text-lighten-2 {
+    color: rgb(240, 99, 146) !important;
+}
+.pink.lighten-1 {
+    background-color: rgb(161, 16, 65) !important;
+}
+.pink-text.text-lighten-1 {
+    color: rgb(237, 75, 130) !important;
+}
+.pink.darken-1 {
+    background-color: rgb(173, 22, 77) !important;
+}
+.pink-text.text-darken-1 {
+    color: rgb(230, 58, 121) !important;
+}
+.pink.darken-2 {
+    background-color: rgb(155, 19, 73) !important;
+}
+.pink-text.text-darken-2 {
+    color: rgb(233, 74, 136) !important;
+}
+.pink.darken-3 {
+    background-color: rgb(138, 16, 70) !important;
+}
+.pink-text.text-darken-3 {
+    color: rgb(236, 88, 153) !important;
+}
+.pink.darken-4 {
+    background-color: rgb(109, 11, 63) !important;
+}
+.pink-text.text-darken-4 {
+    color: rgb(240, 114, 181) !important;
+}
+.pink.accent-1 {
+    background-color: rgb(127, 0, 43) !important;
+}
+.pink-text.text-accent-1 {
+    color: rgb(255, 115, 162) !important;
+}
+.pink.accent-2 {
+    background-color: rgb(166, 0, 56) !important;
+}
+.pink-text.text-accent-2 {
+    color: rgb(255, 70, 133) !important;
+}
+.pink.accent-3 {
+    background-color: rgb(196, 0, 70) !important;
+}
+.pink-text.text-accent-3 {
+    color: rgb(255, 33, 112) !important;
+}
+.pink.accent-4 {
+    background-color: rgb(158, 14, 78) !important;
+}
+.pink-text.text-accent-4 {
+    color: rgb(239, 70, 146) !important;
+}
+.purple {
+    background-color: rgb(125, 31, 141) !important;
+}
+.purple-text {
+    color: rgb(200, 90, 218) !important;
+}
+.purple.lighten-5 {
+    background-color: rgb(48, 20, 52) !important;
+}
+.purple-text.text-lighten-5 {
+    color: rgb(230, 200, 234) !important;
+}
+.purple.lighten-4 {
+    background-color: rgb(69, 28, 76) !important;
+}
+.purple-text.text-lighten-4 {
+    color: rgb(217, 172, 224) !important;
+}
+.purple.lighten-3 {
+    background-color: rgb(93, 37, 102) !important;
+}
+.purple-text.text-lighten-3 {
+    color: rgb(204, 142, 214) !important;
+}
+.purple.lighten-2 {
+    background-color: rgb(116, 47, 128) !important;
+}
+.purple-text.text-lighten-2 {
+    color: rgb(190, 112, 203) !important;
+}
+.purple.lighten-1 {
+    background-color: rgb(134, 54, 148) !important;
+}
+.purple-text.text-lighten-1 {
+    color: rgb(179, 89, 194) !important;
+}
+.purple.darken-1 {
+    background-color: rgb(114, 29, 136) !important;
+}
+.purple-text.text-darken-1 {
+    color: rgb(194, 94, 221) !important;
+}
+.purple.darken-2 {
+    background-color: rgb(98, 25, 130) !important;
+}
+.purple-text.text-darken-2 {
+    color: rgb(188, 99, 225) !important;
+}
+.purple.darken-3 {
+    background-color: rgb(85, 22, 123) !important;
+}
+.purple-text.text-darken-3 {
+    color: rgb(181, 104, 228) !important;
+}
+.purple.darken-4 {
+    background-color: rgb(59, 16, 112) !important;
+}
+.purple-text.text-darken-4 {
+    color: rgb(167, 112, 235) !important;
+}
+.purple.accent-1 {
+    background-color: rgb(108, 3, 126) !important;
+}
+.purple-text.text-accent-1 {
+    color: rgb(232, 116, 252) !important;
+}
+.purple.accent-2 {
+    background-color: rgb(141, 3, 165) !important;
+}
+.purple-text.text-accent-2 {
+    color: rgb(225, 71, 251) !important;
+}
+.purple.accent-3 {
+    background-color: rgb(170, 0, 199) !important;
+}
+.purple-text.text-accent-3 {
+    color: rgb(222, 30, 255) !important;
+}
+.purple.accent-4 {
+    background-color: rgb(136, 0, 204) !important;
+}
+.purple-text.text-accent-4 {
+    color: rgb(179, 26, 255) !important;
+}
+.deep-purple {
+    background-color: rgb(82, 46, 146) !important;
+}
+.deep-purple-text {
+    color: rgb(129, 88, 202) !important;
+}
+.deep-purple.lighten-5 {
+    background-color: rgb(33, 36, 37) !important;
+}
+.deep-purple-text.text-lighten-5 {
+    color: rgb(215, 201, 235) !important;
+}
+.deep-purple.lighten-4 {
+    background-color: rgb(47, 51, 53) !important;
+}
+.deep-purple-text.text-lighten-4 {
+    color: rgb(194, 177, 226) !important;
+}
+.deep-purple.lighten-3 {
+    background-color: rgb(57, 35, 96) !important;
+}
+.deep-purple-text.text-lighten-3 {
+    color: rgb(173, 149, 216) !important;
+}
+.deep-purple.lighten-2 {
+    background-color: rgb(71, 44, 120) !important;
+}
+.deep-purple-text.text-lighten-2 {
+    color: rgb(152, 121, 206) !important;
+}
+.deep-purple.lighten-1 {
+    background-color: rgb(82, 50, 138) !important;
+}
+.deep-purple-text.text-lighten-1 {
+    color: rgb(136, 100, 199) !important;
+}
+.deep-purple.darken-1 {
+    background-color: rgb(75, 42, 142) !important;
+}
+.deep-purple-text.text-darken-1 {
+    color: rgb(130, 92, 206) !important;
+}
+.deep-purple.darken-2 {
+    background-color: rgb(65, 36, 134) !important;
+}
+.deep-purple-text.text-darken-2 {
+    color: rgb(131, 97, 213) !important;
+}
+.deep-purple.darken-3 {
+    background-color: rgb(55, 31, 128) !important;
+}
+.deep-purple-text.text-darken-3 {
+    color: rgb(131, 102, 218) !important;
+}
+.deep-purple.darken-4 {
+    background-color: rgb(39, 22, 117) !important;
+}
+.deep-purple-text.text-darken-4 {
+    color: rgb(132, 110, 228) !important;
+}
+.deep-purple.accent-1 {
+    background-color: rgb(44, 0, 122) !important;
+}
+.deep-purple-text.text-accent-1 {
+    color: rgb(169, 121, 255) !important;
+}
+.deep-purple.accent-2 {
+    background-color: rgb(42, 0, 158) !important;
+}
+.deep-purple-text.text-accent-2 {
+    color: rgb(126, 79, 255) !important;
+}
+.deep-purple.accent-3 {
+    background-color: rgb(58, 0, 185) !important;
+}
+.deep-purple-text.text-accent-3 {
+    color: rgb(112, 47, 255) !important;
+}
+.deep-purple.accent-4 {
+    background-color: rgb(78, 0, 187) !important;
+}
+.deep-purple-text.text-accent-4 {
+    color: rgb(130, 40, 255) !important;
+}
+.indigo {
+    background-color: rgb(50, 65, 145) !important;
+}
+.indigo-text {
+    color: rgb(109, 149, 204) !important;
+}
+.indigo.lighten-5 {
+    background-color: rgb(33, 36, 37) !important;
+}
+.indigo-text.text-lighten-5 {
+    color: rgb(202, 216, 234) !important;
+}
+.indigo.lighten-4 {
+    background-color: rgb(47, 50, 52) !important;
+}
+.indigo-text.text-lighten-4 {
+    color: rgb(177, 197, 226) !important;
+}
+.indigo.lighten-3 {
+    background-color: rgb(36, 45, 94) !important;
+}
+.indigo-text.text-lighten-3 {
+    color: rgb(151, 178, 215) !important;
+}
+.indigo.lighten-2 {
+    background-color: rgb(45, 57, 117) !important;
+}
+.indigo-text.text-lighten-2 {
+    color: rgb(124, 158, 204) !important;
+}
+.indigo.lighten-1 {
+    background-color: rgb(52, 64, 135) !important;
+}
+.indigo-text.text-lighten-1 {
+    color: rgb(104, 143, 197) !important;
+}
+.indigo.darken-1 {
+    background-color: rgb(46, 58, 137) !important;
+}
+.indigo-text.text-darken-1 {
+    color: rgb(114, 153, 208) !important;
+}
+.indigo.darken-2 {
+    background-color: rgb(38, 50, 127) !important;
+}
+.indigo-text.text-darken-2 {
+    color: rgb(120, 159, 214) !important;
+}
+.indigo.darken-3 {
+    background-color: rgb(32, 42, 118) !important;
+}
+.indigo-text.text-darken-3 {
+    color: rgb(127, 165, 220) !important;
+}
+.indigo.darken-4 {
+    background-color: rgb(21, 28, 101) !important;
+}
+.indigo-text.text-darken-4 {
+    color: rgb(137, 174, 231) !important;
+}
+.indigo.accent-1 {
+    background-color: rgb(0, 19, 120) !important;
+}
+.indigo-text.text-accent-1 {
+    color: rgb(124, 179, 255) !important;
+}
+.indigo.accent-2 {
+    background-color: rgb(1, 24, 154) !important;
+}
+.indigo-text.text-accent-2 {
+    color: rgb(84, 156, 254) !important;
+}
+.indigo.accent-3 {
+    background-color: rgb(1, 26, 167) !important;
+}
+.indigo-text.text-accent-3 {
+    color: rgb(68, 147, 254) !important;
+}
+.indigo.accent-4 {
+    background-color: rgb(1, 27, 175) !important;
+}
+.indigo-text.text-accent-4 {
+    color: rgb(59, 141, 254) !important;
+}
+.blue {
+    background-color: rgb(10, 106, 182) !important;
+}
+.blue-text {
+    color: rgb(51, 162, 244) !important;
+}
+.blue.lighten-5 {
+    background-color: rgb(32, 35, 37) !important;
+}
+.blue-text.text-lighten-5 {
+    color: rgb(188, 224, 250) !important;
+}
+.blue.lighten-4 {
+    background-color: rgb(44, 48, 50) !important;
+}
+.blue-text.text-lighten-4 {
+    color: rgb(159, 211, 249) !important;
+}
+.blue.lighten-3 {
+    background-color: rgb(6, 66, 115) !important;
+}
+.blue-text.text-lighten-3 {
+    color: rgb(129, 197, 248) !important;
+}
+.blue.lighten-2 {
+    background-color: rgb(8, 82, 141) !important;
+}
+.blue-text.text-lighten-2 {
+    color: rgb(98, 183, 246) !important;
+}
+.blue.lighten-1 {
+    background-color: rgb(9, 93, 162) !important;
+}
+.blue-text.text-lighten-1 {
+    color: rgb(74, 172, 245) !important;
+}
+.blue.darken-1 {
+    background-color: rgb(21, 106, 181) !important;
+}
+.blue-text.text-darken-1 {
+    color: rgb(52, 153, 232) !important;
+}
+.blue.darken-2 {
+    background-color: rgb(20, 94, 168) !important;
+}
+.blue-text.text-darken-2 {
+    color: rgb(83, 167, 235) !important;
+}
+.blue.darken-3 {
+    background-color: rgb(17, 81, 154) !important;
+}
+.blue-text.text-darken-3 {
+    color: rgb(94, 171, 237) !important;
+}
+.blue.darken-4 {
+    background-color: rgb(10, 57, 129) !important;
+}
+.blue-text.text-darken-4 {
+    color: rgb(111, 179, 243) !important;
+}
+.blue.accent-1 {
+    background-color: rgb(0, 47, 126) !important;
+}
+.blue-text.text-accent-1 {
+    color: rgb(116, 187, 255) !important;
+}
+.blue.accent-2 {
+    background-color: rgb(0, 61, 163) !important;
+}
+.blue-text.text-accent-2 {
+    color: rgb(73, 165, 255) !important;
+}
+.blue.accent-3 {
+    background-color: rgb(0, 67, 179) !important;
+}
+.blue-text.text-accent-3 {
+    color: rgb(54, 156, 255) !important;
+}
+.blue.accent-4 {
+    background-color: rgb(0, 48, 179) !important;
+}
+.blue-text.text-accent-4 {
+    color: rgb(54, 147, 255) !important;
+}
+.light-blue {
+    background-color: rgb(2, 135, 195) !important;
+}
+.light-blue-text {
+    color: rgb(34, 184, 252) !important;
+}
+.light-blue.lighten-5 {
+    background-color: rgb(2, 47, 67) !important;
+}
+.light-blue-text.text-lighten-5 {
+    color: rgb(185, 232, 253) !important;
+}
+.light-blue.lighten-4 {
+    background-color: rgb(4, 66, 95) !important;
+}
+.light-blue-text.text-lighten-4 {
+    color: rgb(153, 220, 251) !important;
+}
+.light-blue.lighten-3 {
+    background-color: rgb(5, 87, 125) !important;
+}
+.light-blue-text.text-lighten-3 {
+    color: rgb(118, 208, 250) !important;
+}
+.light-blue.lighten-2 {
+    background-color: rgb(7, 109, 154) !important;
+}
+.light-blue-text.text-lighten-2 {
+    color: rgb(83, 196, 247) !important;
+}
+.light-blue.lighten-1 {
+    background-color: rgb(7, 124, 177) !important;
+}
+.light-blue-text.text-lighten-1 {
+    color: rgb(56, 187, 247) !important;
+}
+.light-blue.darken-1 {
+    background-color: rgb(2, 124, 183) !important;
+}
+.light-blue-text.text-darken-1 {
+    color: rgb(44, 184, 252) !important;
+}
+.light-blue.darken-2 {
+    background-color: rgb(2, 109, 167) !important;
+}
+.light-blue-text.text-darken-2 {
+    color: rgb(58, 184, 253) !important;
+}
+.light-blue.darken-3 {
+    background-color: rgb(2, 95, 151) !important;
+}
+.light-blue-text.text-darken-3 {
+    color: rgb(72, 185, 253) !important;
+}
+.light-blue.darken-4 {
+    background-color: rgb(1, 70, 124) !important;
+}
+.light-blue-text.text-darken-4 {
+    color: rgb(111, 193, 254) !important;
+}
+.light-blue.accent-1 {
+    background-color: rgb(0, 88, 127) !important;
+}
+.light-blue-text.text-accent-1 {
+    color: rgb(115, 212, 255) !important;
+}
+.light-blue.accent-2 {
+    background-color: rgb(0, 114, 166) !important;
+}
+.light-blue-text.text-accent-2 {
+    color: rgb(70, 198, 255) !important;
+}
+.light-blue.accent-3 {
+    background-color: rgb(0, 141, 204) !important;
+}
+.light-blue-text.text-accent-3 {
+    color: rgb(26, 184, 255) !important;
+}
+.light-blue.accent-4 {
+    background-color: rgb(0, 116, 187) !important;
+}
+.light-blue-text.text-accent-4 {
+    color: rgb(40, 173, 255) !important;
+}
+.cyan {
+    background-color: rgb(0, 150, 170) !important;
+}
+.cyan-text {
+    color: rgb(56, 232, 255) !important;
+}
+.cyan.lighten-5 {
+    background-color: rgb(10, 56, 63) !important;
+}
+.cyan-text.text-lighten-5 {
+    color: rgb(189, 238, 244) !important;
+}
+.cyan.lighten-4 {
+    background-color: rgb(15, 82, 90) !important;
+}
+.cyan-text.text-lighten-4 {
+    color: rgb(157, 230, 239) !important;
+}
+.cyan.lighten-3 {
+    background-color: rgb(20, 109, 120) !important;
+}
+.cyan-text.text-lighten-3 {
+    color: rgb(122, 221, 233) !important;
+}
+.cyan.lighten-2 {
+    background-color: rgb(25, 136, 150) !important;
+}
+.cyan-text.text-lighten-2 {
+    color: rgb(87, 211, 227) !important;
+}
+.cyan.lighten-1 {
+    background-color: rgb(30, 158, 174) !important;
+}
+.cyan-text.text-lighten-1 {
+    color: rgb(60, 204, 222) !important;
+}
+.cyan.darken-1 {
+    background-color: rgb(0, 138, 154) !important;
+}
+.cyan-text.text-darken-1 {
+    color: rgb(69, 235, 255) !important;
+}
+.cyan.darken-2 {
+    background-color: rgb(0, 121, 134) !important;
+}
+.cyan-text.text-darken-2 {
+    color: rgb(87, 239, 255) !important;
+}
+.cyan.darken-3 {
+    background-color: rgb(0, 105, 114) !important;
+}
+.cyan-text.text-darken-3 {
+    color: rgb(104, 242, 255) !important;
+}
+.cyan.darken-4 {
+    background-color: rgb(0, 77, 80) !important;
+}
+.cyan-text.text-darken-4 {
+    color: rgb(200, 196, 189) !important;
+}
+.cyan.accent-1 {
+    background-color: rgb(0, 125, 125) !important;
+}
+.cyan-text.text-accent-1 {
+    color: rgb(118, 255, 255) !important;
+}
+.cyan.accent-2 {
+    background-color: rgb(0, 190, 190) !important;
+}
+.cyan-text.text-accent-2 {
+    color: rgb(42, 255, 255) !important;
+}
+.cyan.accent-3 {
+    background-color: rgb(0, 183, 204) !important;
+}
+.cyan-text.text-accent-3 {
+    color: rgb(26, 232, 255) !important;
+}
+.cyan.accent-4 {
+    background-color: rgb(0, 147, 170) !important;
+}
+.cyan-text.text-accent-4 {
+    color: rgb(56, 229, 255) !important;
+}
+.teal {
+    background-color: rgb(0, 120, 109) !important;
+}
+.teal-text {
+    color: rgb(99, 255, 240) !important;
+}
+.teal.lighten-5 {
+    background-color: rgb(23, 55, 53) !important;
+}
+.teal-text.text-lighten-5 {
+    color: rgb(197, 231, 229) !important;
+}
+.teal.lighten-4 {
+    background-color: rgb(34, 82, 79) !important;
+}
+.teal-text.text-lighten-4 {
+    color: rgb(165, 218, 213) !important;
+}
+.teal.lighten-3 {
+    background-color: rgb(46, 112, 108) !important;
+}
+.teal-text.text-lighten-3 {
+    color: rgb(130, 204, 197) !important;
+}
+.teal.lighten-2 {
+    background-color: rgb(59, 143, 137) !important;
+}
+.teal-text.text-lighten-2 {
+    color: rgb(94, 189, 180) !important;
+}
+.teal.lighten-1 {
+    background-color: rgb(30, 133, 123) !important;
+}
+.teal-text.text-lighten-1 {
+    color: rgb(97, 219, 208) !important;
+}
+.teal.darken-1 {
+    background-color: rgb(0, 110, 98) !important;
+}
+.teal-text.text-darken-1 {
+    color: rgb(108, 255, 240) !important;
+}
+.teal.darken-2 {
+    background-color: rgb(0, 97, 86) !important;
+}
+.teal-text.text-darken-2 {
+    color: rgb(119, 255, 239) !important;
+}
+.teal.darken-3 {
+    background-color: rgb(0, 84, 74) !important;
+}
+.teal-text.text-darken-3 {
+    color: rgb(131, 255, 240) !important;
+}
+.teal.darken-4 {
+    background-color: rgb(0, 62, 51) !important;
+}
+.teal-text.text-darken-4 {
+    color: rgb(208, 204, 197) !important;
+}
+.teal.accent-1 {
+    background-color: rgb(0, 104, 86) !important;
+}
+.teal-text.text-accent-1 {
+    color: rgb(142, 255, 229) !important;
+}
+.teal.accent-2 {
+    background-color: rgb(0, 144, 118) !important;
+}
+.teal-text.text-accent-2 {
+    color: rgb(96, 255, 217) !important;
+}
+.teal.accent-3 {
+    background-color: rgb(18, 182, 151) !important;
+}
+.teal-text.text-accent-3 {
+    color: rgb(50, 235, 189) !important;
+}
+.teal.accent-4 {
+    background-color: rgb(0, 153, 132) !important;
+}
+.teal-text.text-accent-4 {
+    color: rgb(70, 255, 230) !important;
+}
+.green {
+    background-color: rgb(61, 140, 64) !important;
+}
+.green-text {
+    color: rgb(97, 186, 101) !important;
+}
+.green.lighten-5 {
+    background-color: rgb(21, 49, 30) !important;
+}
+.green-text.text-lighten-5 {
+    color: rgb(203, 233, 206) !important;
+}
+.green.lighten-4 {
+    background-color: rgb(31, 68, 41) !important;
+}
+.green-text.text-lighten-4 {
+    color: rgb(181, 222, 183) !important;
+}
+.green.lighten-3 {
+    background-color: rgb(41, 89, 54) !important;
+}
+.green-text.text-lighten-3 {
+    color: rgb(157, 210, 159) !important;
+}
+.green.lighten-2 {
+    background-color: rgb(49, 111, 67) !important;
+}
+.green-text.text-lighten-2 {
+    color: rgb(131, 200, 134) !important;
+}
+.green.lighten-1 {
+    background-color: rgb(56, 127, 77) !important;
+}
+.green-text.text-lighten-1 {
+    color: rgb(113, 192, 116) !important;
+}
+.green.darken-1 {
+    background-color: rgb(54, 128, 57) !important;
+}
+.green-text.text-darken-1 {
+    color: rgb(107, 193, 111) !important;
+}
+.green.darken-2 {
+    background-color: rgb(45, 114, 48) !important;
+}
+.green-text.text-darken-2 {
+    color: rgb(119, 201, 123) !important;
+}
+.green.darken-3 {
+    background-color: rgb(37, 100, 40) !important;
+}
+.green-text.text-darken-3 {
+    color: rgb(130, 209, 134) !important;
+}
+.green.darken-4 {
+    background-color: rgb(22, 75, 26) !important;
+}
+.green-text.text-darken-4 {
+    color: rgb(150, 225, 155) !important;
+}
+.green.accent-1 {
+    background-color: rgb(11, 87, 46) !important;
+}
+.green-text.text-accent-1 {
+    color: rgb(161, 243, 184) !important;
+}
+.green.accent-2 {
+    background-color: rgb(14, 136, 91) !important;
+}
+.green-text.text-accent-2 {
+    color: rgb(104, 240, 173) !important;
+}
+.green.accent-3 {
+    background-color: rgb(0, 184, 94) !important;
+}
+.green-text.text-accent-3 {
+    color: rgb(43, 255, 152) !important;
+}
+.green.accent-4 {
+    background-color: rgb(0, 160, 66) !important;
+}
+.green-text.text-accent-4 {
+    color: rgb(64, 255, 143) !important;
+}
+.light-green {
+    background-color: rgb(113, 147, 49) !important;
+}
+.light-green-text {
+    color: rgb(149, 200, 90) !important;
+}
+.light-green.lighten-5 {
+    background-color: rgb(40, 52, 17) !important;
+}
+.light-green-text.text-lighten-5 {
+    color: rgb(221, 238, 201) !important;
+}
+.light-green.lighten-4 {
+    background-color: rgb(55, 71, 23) !important;
+}
+.light-green-text.text-lighten-4 {
+    color: rgb(206, 230, 178) !important;
+}
+.light-green.lighten-3 {
+    background-color: rgb(71, 92, 31) !important;
+}
+.light-green-text.text-lighten-3 {
+    color: rgb(190, 221, 154) !important;
+}
+.light-green.lighten-2 {
+    background-color: rgb(87, 114, 38) !important;
+}
+.light-green-text.text-lighten-2 {
+    color: rgb(174, 213, 129) !important;
+}
+.light-green.lighten-1 {
+    background-color: rgb(100, 131, 43) !important;
+}
+.light-green-text.text-lighten-1 {
+    color: rgb(161, 207, 109) !important;
+}
+.light-green.darken-1 {
+    background-color: rgb(99, 143, 53) !important;
+}
+.light-green-text.text-darken-1 {
+    color: rgb(145, 195, 92) !important;
+}
+.light-green.darken-2 {
+    background-color: rgb(83, 127, 45) !important;
+}
+.light-green-text.text-darken-2 {
+    color: rgb(151, 203, 106) !important;
+}
+.light-green.darken-3 {
+    background-color: rgb(68, 111, 38) !important;
+}
+.light-green-text.text-darken-3 {
+    color: rgb(157, 209, 120) !important;
+}
+.light-green.darken-4 {
+    background-color: rgb(41, 84, 24) !important;
+}
+.light-green-text.text-darken-4 {
+    color: rgb(164, 223, 142) !important;
+}
+.light-green.accent-1 {
+    background-color: rgb(77, 118, 0) !important;
+}
+.light-green-text.text-accent-1 {
+    color: rgb(196, 255, 126) !important;
+}
+.light-green.accent-2 {
+    background-color: rgb(98, 151, 0) !important;
+}
+.light-green-text.text-accent-2 {
+    color: rgb(177, 255, 88) !important;
+}
+.light-green.accent-3 {
+    background-color: rgb(120, 202, 0) !important;
+}
+.light-green-text.text-accent-3 {
+    color: rgb(131, 255, 28) !important;
+}
+.light-green.accent-4 {
+    background-color: rgb(80, 177, 18) !important;
+}
+.light-green-text.text-accent-4 {
+    color: rgb(124, 234, 54) !important;
+}
+.lime {
+    background-color: rgb(153, 162, 29) !important;
+}
+.lime-text {
+    color: rgb(209, 223, 73) !important;
+}
+.lime.lighten-5 {
+    background-color: rgb(54, 58, 10) !important;
+}
+.lime-text.text-lighten-5 {
+    color: rgb(240, 245, 194) !important;
+}
+.lime.lighten-4 {
+    background-color: rgb(75, 79, 15) !important;
+}
+.lime-text.text-lighten-4 {
+    color: rgb(234, 239, 170) !important;
+}
+.lime.lighten-3 {
+    background-color: rgb(97, 103, 18) !important;
+}
+.lime-text.text-lighten-3 {
+    color: rgb(227, 236, 142) !important;
+}
+.lime.lighten-2 {
+    background-color: rgb(119, 126, 22) !important;
+}
+.lime-text.text-lighten-2 {
+    color: rgb(219, 231, 115) !important;
+}
+.lime.lighten-1 {
+    background-color: rgb(136, 144, 26) !important;
+}
+.lime-text.text-lighten-1 {
+    color: rgb(214, 226, 94) !important;
+}
+.lime.darken-1 {
+    background-color: rgb(154, 162, 41) !important;
+}
+.lime-text.text-darken-1 {
+    color: rgb(200, 209, 73) !important;
+}
+.lime.darken-2 {
+    background-color: rgb(140, 144, 34) !important;
+}
+.lime-text.text-darken-2 {
+    color: rgb(210, 215, 88) !important;
+}
+.lime.darken-3 {
+    background-color: rgb(126, 126, 29) !important;
+}
+.lime-text.text-darken-3 {
+    color: rgb(220, 219, 103) !important;
+}
+.lime.darken-4 {
+    background-color: rgb(104, 95, 18) !important;
+}
+.lime-text.text-darken-4 {
+    color: rgb(231, 220, 121) !important;
+}
+.lime.accent-1 {
+    background-color: rgb(118, 127, 0) !important;
+}
+.lime-text.text-accent-1 {
+    color: rgb(243, 255, 116) !important;
+}
+.lime.accent-2 {
+    background-color: rgb(154, 165, 0) !important;
+}
+.lime-text.text-accent-2 {
+    color: rgb(239, 255, 71) !important;
+}
+.lime.accent-3 {
+    background-color: rgb(170, 204, 0) !important;
+}
+.lime-text.text-accent-3 {
+    color: rgb(204, 255, 26) !important;
+}
+.lime.accent-4 {
+    background-color: rgb(139, 187, 0) !important;
+}
+.lime-text.text-accent-4 {
+    color: rgb(200, 255, 40) !important;
+}
+.yellow {
+    background-color: rgb(169, 151, 0) !important;
+}
+.yellow-text {
+    color: rgb(255, 236, 67) !important;
+}
+.yellow.lighten-5 {
+    background-color: rgb(65, 60, 0) !important;
+}
+.yellow-text.text-lighten-5 {
+    color: rgb(255, 249, 187) !important;
+}
+.yellow.lighten-4 {
+    background-color: rgb(86, 78, 0) !important;
+}
+.yellow-text.text-lighten-4 {
+    color: rgb(255, 246, 163) !important;
+}
+.yellow.lighten-3 {
+    background-color: rgb(110, 99, 0) !important;
+}
+.yellow-text.text-lighten-3 {
+    color: rgb(255, 243, 135) !important;
+}
+.yellow.lighten-2 {
+    background-color: rgb(133, 120, 0) !important;
+}
+.yellow-text.text-lighten-2 {
+    color: rgb(255, 240, 108) !important;
+}
+.yellow.lighten-1 {
+    background-color: rgb(151, 136, 0) !important;
+}
+.yellow-text.text-lighten-1 {
+    color: rgb(255, 238, 87) !important;
+}
+.yellow.darken-1 {
+    background-color: rgb(172, 140, 2) !important;
+}
+.yellow-text.text-darken-1 {
+    color: rgb(253, 218, 63) !important;
+}
+.yellow.darken-2 {
+    background-color: rgb(176, 127, 3) !important;
+}
+.yellow-text.text-darken-2 {
+    color: rgb(251, 196, 58) !important;
+}
+.yellow.darken-3 {
+    background-color: rgb(180, 113, 5) !important;
+}
+.yellow-text.text-darken-3 {
+    color: rgb(249, 174, 53) !important;
+}
+.yellow.darken-4 {
+    background-color: rgb(188, 92, 8) !important;
+}
+.yellow-text.text-darken-4 {
+    color: rgb(246, 138, 44) !important;
+}
+.yellow.accent-1 {
+    background-color: rgb(119, 119, 0) !important;
+}
+.yellow-text.text-accent-1 {
+    color: rgb(255, 255, 124) !important;
+}
+.yellow.accent-2 {
+    background-color: rgb(204, 204, 0) !important;
+}
+.yellow-text.text-accent-2 {
+    color: rgb(255, 255, 26) !important;
+}
+.yellow.accent-3 {
+    background-color: rgb(204, 187, 0) !important;
+}
+.yellow-text.text-accent-3 {
+    color: rgb(255, 236, 26) !important;
+}
+.yellow.accent-4 {
+    background-color: rgb(204, 171, 0) !important;
+}
+.yellow-text.text-accent-4 {
+    color: rgb(255, 218, 26) !important;
+}
+.amber {
+    background-color: rgb(200, 150, 0) !important;
+}
+.amber-text {
+    color: rgb(255, 199, 30) !important;
+}
+.amber.lighten-5 {
+    background-color: rgb(69, 53, 0) !important;
+}
+.amber-text.text-lighten-5 {
+    color: rgb(255, 238, 183) !important;
+}
+.amber.lighten-4 {
+    background-color: rgb(97, 72, 0) !important;
+}
+.amber-text.text-lighten-4 {
+    color: rgb(255, 229, 151) !important;
+}
+.amber.lighten-3 {
+    background-color: rgb(126, 95, 0) !important;
+}
+.amber-text.text-lighten-3 {
+    color: rgb(255, 221, 116) !important;
+}
+.amber.lighten-2 {
+    background-color: rgb(157, 119, 0) !important;
+}
+.amber-text.text-lighten-2 {
+    color: rgb(255, 213, 81) !important;
+}
+.amber.lighten-1 {
+    background-color: rgb(180, 136, 0) !important;
+}
+.amber-text.text-lighten-1 {
+    color: rgb(255, 205, 53) !important;
+}
+.amber.darken-1 {
+    background-color: rgb(204, 143, 0) !important;
+}
+.amber-text.text-darken-1 {
+    color: rgb(255, 187, 26) !important;
+}
+.amber.darken-2 {
+    background-color: rgb(204, 128, 0) !important;
+}
+.amber-text.text-darken-2 {
+    color: rgb(255, 170, 26) !important;
+}
+.amber.darken-3 {
+    background-color: rgb(204, 114, 0) !important;
+}
+.amber-text.text-darken-3 {
+    color: rgb(255, 154, 26) !important;
+}
+.amber.darken-4 {
+    background-color: rgb(204, 89, 0) !important;
+}
+.amber-text.text-darken-4 {
+    color: rgb(255, 125, 26) !important;
+}
+.amber.accent-1 {
+    background-color: rgb(128, 102, 0) !important;
+}
+.amber-text.text-accent-1 {
+    color: rgb(255, 226, 114) !important;
+}
+.amber.accent-2 {
+    background-color: rgb(166, 131, 0) !important;
+}
+.amber-text.text-accent-2 {
+    color: rgb(255, 216, 70) !important;
+}
+.amber.accent-3 {
+    background-color: rgb(204, 157, 0) !important;
+}
+.amber-text.text-accent-3 {
+    color: rgb(255, 202, 26) !important;
+}
+.amber.accent-4 {
+    background-color: rgb(204, 137, 0) !important;
+}
+.amber-text.text-accent-4 {
+    color: rgb(255, 179, 26) !important;
+}
+.orange {
+    background-color: rgb(204, 122, 0) !important;
+}
+.orange-text {
+    color: rgb(255, 162, 26) !important;
+}
+.orange.lighten-5 {
+    background-color: rgb(70, 43, 0) !important;
+}
+.orange-text.text-lighten-5 {
+    color: rgb(255, 227, 182) !important;
+}
+.orange.lighten-4 {
+    background-color: rgb(97, 58, 0) !important;
+}
+.orange-text.text-lighten-4 {
+    color: rgb(255, 213, 150) !important;
+}
+.orange.lighten-3 {
+    background-color: rgb(127, 76, 0) !important;
+}
+.orange-text.text-lighten-3 {
+    color: rgb(255, 199, 115) !important;
+}
+.orange.lighten-2 {
+    background-color: rgb(158, 94, 0) !important;
+}
+.orange-text.text-lighten-2 {
+    color: rgb(255, 184, 79) !important;
+}
+.orange.lighten-1 {
+    background-color: rgb(181, 108, 0) !important;
+}
+.orange-text.text-lighten-1 {
+    color: rgb(255, 173, 52) !important;
+}
+.orange.darken-1 {
+    background-color: rgb(201, 112, 0) !important;
+}
+.orange-text.text-darken-1 {
+    color: rgb(255, 155, 28) !important;
+}
+.orange.darken-2 {
+    background-color: rgb(196, 99, 0) !important;
+}
+.orange-text.text-darken-2 {
+    color: rgb(255, 145, 33) !important;
+}
+.orange.darken-3 {
+    background-color: rgb(191, 86, 0) !important;
+}
+.orange-text.text-darken-3 {
+    color: rgb(255, 135, 37) !important;
+}
+.orange.darken-4 {
+    background-color: rgb(184, 65, 0) !important;
+}
+.orange-text.text-darken-4 {
+    color: rgb(255, 118, 43) !important;
+}
+.orange.accent-1 {
+    background-color: rgb(127, 81, 0) !important;
+}
+.orange-text.text-accent-1 {
+    color: rgb(255, 204, 115) !important;
+}
+.orange.accent-2 {
+    background-color: rgb(166, 93, 0) !important;
+}
+.orange-text.text-accent-2 {
+    color: rgb(255, 174, 70) !important;
+}
+.orange.accent-3 {
+    background-color: rgb(204, 116, 0) !important;
+}
+.orange-text.text-accent-3 {
+    color: rgb(255, 156, 26) !important;
+}
+.orange.accent-4 {
+    background-color: rgb(204, 87, 0) !important;
+}
+.orange-text.text-accent-4 {
+    color: rgb(255, 124, 26) !important;
+}
+.deep-orange {
+    background-color: rgb(184, 44, 0) !important;
+}
+.deep-orange-text {
+    color: rgb(255, 99, 49) !important;
+}
+.deep-orange.lighten-5 {
+    background-color: rgb(58, 15, 10) !important;
+}
+.deep-orange-text.text-lighten-5 {
+    color: rgb(245, 200, 194) !important;
+}
+.deep-orange.lighten-4 {
+    background-color: rgb(91, 22, 0) !important;
+}
+.deep-orange-text.text-lighten-4 {
+    color: rgb(255, 180, 157) !important;
+}
+.deep-orange.lighten-3 {
+    background-color: rgb(117, 28, 0) !important;
+}
+.deep-orange-text.text-lighten-3 {
+    color: rgb(255, 157, 127) !important;
+}
+.deep-orange.lighten-2 {
+    background-color: rgb(143, 34, 0) !important;
+}
+.deep-orange-text.text-lighten-2 {
+    color: rgb(255, 134, 96) !important;
+}
+.deep-orange.lighten-1 {
+    background-color: rgb(164, 39, 0) !important;
+}
+.deep-orange-text.text-lighten-1 {
+    color: rgb(255, 116, 72) !important;
+}
+.deep-orange.darken-1 {
+    background-color: rgb(184, 51, 9) !important;
+}
+.deep-orange-text.text-darken-1 {
+    color: rgb(245, 96, 49) !important;
+}
+.deep-orange.darken-2 {
+    background-color: rgb(184, 59, 20) !important;
+}
+.deep-orange-text.text-darken-2 {
+    color: rgb(233, 92, 48) !important;
+}
+.deep-orange.darken-3 {
+    background-color: rgb(173, 54, 17) !important;
+}
+.deep-orange-text.text-darken-3 {
+    color: rgb(236, 99, 57) !important;
+}
+.deep-orange.darken-4 {
+    background-color: rgb(153, 43, 10) !important;
+}
+.deep-orange-text.text-darken-4 {
+    color: rgb(244, 113, 73) !important;
+}
+.deep-orange.accent-1 {
+    background-color: rgb(127, 30, 0) !important;
+}
+.deep-orange-text.text-accent-1 {
+    color: rgb(255, 148, 115) !important;
+}
+.deep-orange.accent-2 {
+    background-color: rgb(166, 40, 0) !important;
+}
+.deep-orange-text.text-accent-2 {
+    color: rgb(255, 115, 70) !important;
+}
+.deep-orange.accent-3 {
+    background-color: rgb(204, 49, 0) !important;
+}
+.deep-orange-text.text-accent-3 {
+    color: rgb(255, 80, 26) !important;
+}
+.deep-orange.accent-4 {
+    background-color: rgb(177, 35, 0) !important;
+}
+.deep-orange-text.text-accent-4 {
+    color: rgb(255, 90, 49) !important;
+}
+.brown {
+    background-color: rgb(97, 68, 58) !important;
+}
+.brown-text {
+    color: rgb(186, 151, 138) !important;
+}
+.brown.lighten-5 {
+    background-color: rgb(43, 35, 31) !important;
+}
+.brown-text.text-lighten-5 {
+    color: rgb(220, 217, 212) !important;
+}
+.brown.lighten-4 {
+    background-color: rgb(63, 50, 45) !important;
+}
+.brown-text.text-lighten-4 {
+    color: rgb(202, 197, 190) !important;
+}
+.brown.lighten-3 {
+    background-color: rgb(84, 67, 62) !important;
+}
+.brown-text.text-lighten-3 {
+    color: rgb(182, 176, 166) !important;
+}
+.brown.lighten-2 {
+    background-color: rgb(106, 85, 78) !important;
+}
+.brown-text.text-lighten-2 {
+    color: rgb(162, 154, 142) !important;
+}
+.brown.lighten-1 {
+    background-color: rgb(113, 88, 79) !important;
+}
+.brown-text.text-lighten-1 {
+    color: rgb(156, 148, 135) !important;
+}
+.brown.darken-1 {
+    background-color: rgb(87, 61, 52) !important;
+}
+.brown-text.text-darken-1 {
+    color: rgb(190, 158, 147) !important;
+}
+.brown.darken-2 {
+    background-color: rgb(74, 51, 44) !important;
+}
+.brown-text.text-darken-2 {
+    color: rgb(198, 167, 158) !important;
+}
+.brown.darken-3 {
+    background-color: rgb(62, 42, 37) !important;
+}
+.brown-text.text-darken-3 {
+    color: rgb(204, 175, 168) !important;
+}
+.brown.darken-4 {
+    background-color: rgb(50, 31, 28) !important;
+}
+.brown-text.text-darken-4 {
+    color: rgb(201, 197, 190) !important;
+}
+.blue-grey {
+    background-color: rgb(77, 100, 111) !important;
+}
+.blue-grey-text {
+    color: rgb(158, 149, 137) !important;
+}
+.blue-grey.lighten-5 {
+    background-color: rgb(33, 36, 37) !important;
+}
+.blue-grey-text.text-lighten-5 {
+    color: rgb(222, 219, 214) !important;
+}
+.blue-grey.lighten-4 {
+    background-color: rgb(43, 53, 58) !important;
+}
+.blue-grey-text.text-lighten-4 {
+    color: rgb(206, 202, 195) !important;
+}
+.blue-grey.lighten-3 {
+    background-color: rgb(56, 70, 77) !important;
+}
+.blue-grey-text.text-lighten-3 {
+    color: rgb(189, 183, 174) !important;
+}
+.blue-grey.lighten-2 {
+    background-color: rgb(70, 87, 96) !important;
+}
+.blue-grey-text.text-lighten-2 {
+    color: rgb(171, 164, 153) !important;
+}
+.blue-grey.lighten-1 {
+    background-color: rgb(81, 101, 110) !important;
+}
+.blue-grey-text.text-lighten-1 {
+    color: rgb(158, 150, 137) !important;
+}
+.blue-grey.darken-1 {
+    background-color: rgb(67, 88, 98) !important;
+}
+.blue-grey-text.text-darken-1 {
+    color: rgb(167, 159, 148) !important;
+}
+.blue-grey.darken-2 {
+    background-color: rgb(55, 72, 80) !important;
+}
+.blue-grey-text.text-darken-2 {
+    color: rgb(179, 172, 162) !important;
+}
+.blue-grey.darken-3 {
+    background-color: rgb(44, 57, 63) !important;
+}
+.blue-grey-text.text-darken-3 {
+    color: rgb(190, 184, 176) !important;
+}
+.blue-grey.darken-4 {
+    background-color: rgb(30, 40, 45) !important;
+}
+.blue-grey-text.text-darken-4 {
+    color: rgb(202, 198, 191) !important;
+}
+.grey {
+    background-color: rgb(79, 85, 89) !important;
+}
+.grey-text {
+    color: rgb(171, 163, 152) !important;
+}
+.grey.lighten-5 {
+    background-color: rgb(27, 29, 30) !important;
+}
+.grey-text.text-lighten-5 {
+    color: rgb(229, 227, 223) !important;
+}
+.grey.lighten-4 {
+    background-color: rgb(30, 32, 33) !important;
+}
+.grey-text.text-lighten-4 {
+    color: rgb(226, 223, 219) !important;
+}
+.grey.lighten-3 {
+    background-color: rgb(34, 36, 38) !important;
+}
+.grey-text.text-lighten-3 {
+    color: rgb(221, 218, 214) !important;
+}
+.grey.lighten-2 {
+    background-color: rgb(42, 45, 47) !important;
+}
+.grey-text.text-lighten-2 {
+    color: rgb(212, 209, 203) !important;
+}
+.grey.lighten-1 {
+    background-color: rgb(61, 66, 69) !important;
+}
+.grey-text.text-lighten-1 {
+    color: rgb(190, 185, 176) !important;
+}
+.grey.darken-1 {
+    background-color: rgb(88, 95, 99) !important;
+}
+.grey-text.text-darken-1 {
+    color: rgb(158, 150, 137) !important;
+}
+.grey.darken-2 {
+    background-color: rgb(73, 79, 82) !important;
+}
+.grey-text.text-darken-2 {
+    color: rgb(171, 163, 152) !important;
+}
+.grey.darken-3 {
+    background-color: rgb(50, 54, 56) !important;
+}
+.grey-text.text-darken-3 {
+    color: rgb(190, 185, 176) !important;
+}
+.grey.darken-4 {
+    background-color: rgb(25, 27, 28) !important;
+}
+.grey-text.text-darken-4 {
+    color: rgb(211, 207, 202) !important;
+}
+.black {
+    background-color: rgb(0, 0, 0) !important;
+}
+.black-text {
+    color: rgb(232, 230, 227) !important;
+}
+.white {
+    background-color: rgb(24, 26, 27) !important;
+}
+.white-text {
+    color: rgb(232, 230, 227) !important;
+}
+.transparent {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+.transparent-text {
+    color: rgba(232, 230, 227, 0) !important;
+}
+a {
+    background-color: transparent;
+}
+abbr[title] {
+    border-bottom-color: currentColor;
+    border-bottom-color: initial;
+    -webkit-text-decoration-color: inherited;
+            text-decoration-color: inherited;
+    -webkit-text-decoration-color: initial;
+            text-decoration-color: initial;
+}
+mark {
+    background-color: rgb(204, 204, 0);
+    color: rgb(232, 230, 227);
+}
+legend {
+    color: inherit;
+}
+a {
+    color: rgb(44, 184, 252);
+    -webkit-text-decoration-color: inherited;
+            text-decoration-color: inherited;
+    -webkit-text-decoration-color: initial;
+            text-decoration-color: initial;
+    -webkit-tap-highlight-color: transparent;
+}
+.z-depth-0 {
+    box-shadow: none !important;
+}
+.z-depth-1,
+nav,
+.card-panel,
+.card,
+.toast,
+.btn,
+.btn-large,
+.btn-small,
+.btn-floating,
+.dropdown-content,
+.collapsible,
+.sidenav {
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 2px 2px 0px,
+    rgba(0, 0, 0, 0.12) 0px 3px 1px -2px,
+    rgba(0, 0, 0, 0.2) 0px 1px 5px 0px;
+}
+.z-depth-1-half,
+.btn:hover,
+.btn-large:hover,
+.btn-small:hover,
+.btn-floating:hover {
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 3px 3px 0px,
+    rgba(0, 0, 0, 0.12) 0px 1px 7px 0px,
+    rgba(0, 0, 0, 0.2) 0px 3px 1px -1px;
+}
+.z-depth-2 {
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 4px 5px 0px,
+    rgba(0, 0, 0, 0.12) 0px 1px 10px 0px,
+    rgba(0, 0, 0, 0.3) 0px 2px 4px -1px;
+}
+.z-depth-3 {
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 8px 17px 2px,
+    rgba(0, 0, 0, 0.12) 0px 3px 14px 2px,
+    rgba(0, 0, 0, 0.2) 0px 5px 5px -3px;
+}
+.z-depth-4 {
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 16px 24px 2px,
+    rgba(0, 0, 0, 0.12) 0px 6px 30px 5px,
+    rgba(0, 0, 0, 0.2) 0px 8px 10px -7px;
+}
+.z-depth-5,
+.modal {
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 24px 38px 3px,
+    rgba(0, 0, 0, 0.12) 0px 9px 46px 8px,
+    rgba(0, 0, 0, 0.2) 0px 11px 15px -7px;
+}
+.hoverable:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 17px 0px,
+    rgba(0, 0, 0, 0.19) 0px 6px 20px 0px;
+}
+.divider {
+    background-color: rgb(42, 45, 47);
+}
+blockquote {
+    border-left-color: rgb(135, 16, 20);
+}
+.pagination li a {
+    color: rgb(189, 183, 175);
+}
+.pagination li.active a {
+    color: rgb(232, 230, 227);
+}
+.pagination li.active {
+    background-color: rgb(133, 16, 20);
+}
+.pagination li.disabled a {
+    color: rgb(168, 160, 149);
+}
+.breadcrumb {
+    color: rgba(232, 230, 227, 0.7);
+}
+.breadcrumb::before {
+    color: rgba(232, 230, 227, 0.7);
+}
+.breadcrumb:last-child {
+    color: rgb(232, 230, 227);
+}
+.page-footer {
+    color: rgb(232, 230, 227);
+    background-color: rgb(133, 16, 20);
+}
+.page-footer .footer-copyright {
+    color: rgba(232, 230, 227, 0.8);
+    background-color: rgba(38, 42, 43, 0.08);
+}
+table,
+th,
+td {
+    border-color: currentColor;
+    border-color: initial;
+}
+table.striped tr {
+    border-bottom-color: currentColor;
+    border-bottom-color: initial;
+}
+table.striped > tbody > tr:nth-child(2n+1) {
+    background-color: rgba(31, 34, 35, 0.5);
+}
+table.highlight > tbody > tr:hover {
+    background-color: rgba(31, 34, 35, 0.5);
+}
+tr {
+    border-bottom-color: rgba(140, 130, 115, 0.12);
+}
+@media only screen and (max-width: 992px) {
+    table.responsive-table tr {
+        border-bottom-color: currentColor;
+        border-bottom-color: initial;
+    }
+    table.responsive-table thead {
+        border-top-color: currentColor;
+        border-top-color: initial;
+        border-bottom-color: currentColor;
+        border-bottom-color: initial;
+        border-left-color: currentColor;
+        border-left-color: initial;
+        border-right-color: rgba(140, 130, 115, 0.12);
+    }
+}
+.collection {
+    border-color: rgb(57, 61, 64);
+}
+.collection .collection-item {
+    background-color: rgb(24, 26, 27);
+    border-bottom-color: rgb(57, 61, 64);
+}
+.collection .collection-item.avatar i.circle {
+    color: rgb(232, 230, 227);
+    background-color: rgb(82, 88, 92);
+}
+.collection .collection-item:last-child {
+    border-bottom-color: currentColor;
+    border-bottom-color: initial;
+}
+.collection .collection-item.active {
+    background-color: rgb(30, 133, 123);
+    color: rgb(199, 242, 239);
+}
+.collection .collection-item.active .secondary-content {
+    color: rgb(232, 230, 227);
+}
+.collection a.collection-item {
+    color: rgb(97, 219, 208);
+}
+.collection a.collection-item:not(.active):hover {
+    background-color: rgb(43, 47, 49);
+}
+.collection.with-header .collection-header {
+    background-color: rgb(24, 26, 27);
+    border-bottom-color: rgb(57, 61, 64);
+}
+.secondary-content {
+    color: rgb(97, 219, 208);
+}
+.collapsible .collection {
+    border-color: currentColor;
+    border-color: initial;
+}
+.progress {
+    background-color: rgb(21, 91, 86);
+}
+.progress .determinate {
+    background-color: rgb(30, 133, 123);
+}
+.progress .indeterminate {
+    background-color: rgb(30, 133, 123);
+}
+.progress .indeterminate::before {
+    background-color: inherit;
+}
+.progress .indeterminate::after {
+    background-color: inherit;
+}
+span.badge {
+    color: rgb(158, 150, 137);
+}
+span.badge.new {
+    color: rgb(232, 230, 227);
+    background-color: rgb(30, 133, 123);
+}
+nav {
+    color: rgb(232, 230, 227);
+    background-color: rgb(133, 16, 20);
+}
+nav a {
+    color: rgb(232, 230, 227);
+}
+nav .brand-logo {
+    color: rgb(232, 230, 227);
+}
+nav ul li.active {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+nav ul a {
+    color: rgb(232, 230, 227);
+}
+nav ul a:hover {
+    background-color: rgba(0, 0, 0, 0.1); 
+}
+nav .input-field input {
+    border-color: currentColor;
+    border-color: initial; 
+}
+nav .input-field input:focus, nav .input-field input[type="text"]:valid, nav .input-field input[type="password"]:valid, nav .input-field input[type="email"]:valid, nav .input-field input[type="url"]:valid, nav .input-field input[type="date"]:valid {
+    border-color: currentColor;
+    border-color: initial;
+    box-shadow: none;
+}
+nav .input-field label i {
+    color: rgba(232, 230, 227, 0.7);
+}
+nav .input-field label.active i {
+    color: rgb(232, 230, 227);
+}
+a {
+    -webkit-text-decoration-color: inherited;
+            text-decoration-color: inherited;
+    -webkit-text-decoration-color: initial;
+            text-decoration-color: initial;
+}
+html {
+    color: rgba(232, 230, 227, 0.87);
+}
+.card-panel {
+    background-color: rgb(24, 26, 27);
+}
+.card {
+    background-color: rgb(24, 26, 27);
+}
+.card .card-image .card-title {
+    color: rgb(232, 230, 227);
+}
+.card .card-action {
+    background-color: inherit;
+    border-top-color: rgba(75, 81, 84, 0.2);
+}
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    color: rgb(255, 174, 70);
+}
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating):hover {
+    color: rgb(255, 205, 142);
+}
+.card .card-reveal {
+    background-color: rgb(24, 26, 27);
+}
+.toast {
+    background-color: rgb(38, 41, 42);
+    color: rgb(232, 230, 227);
+}
+.toast .toast-action {
+    color: rgb(239, 255, 71);
+}
+.tabs {
+    background-color: rgb(24, 26, 27);
+}
+.tabs.tabs-transparent {
+    background-color: transparent;
+}
+.tabs.tabs-transparent .tab a,
+.tabs.tabs-transparent .tab.disabled a,
+.tabs.tabs-transparent .tab.disabled a:hover {
+    color: rgba(232, 230, 227, 0.7);
+}
+.tabs.tabs-transparent .tab a:hover,
+.tabs.tabs-transparent .tab a.active {
+    color: rgb(232, 230, 227);
+}
+.tabs.tabs-transparent .indicator {
+    background-color: rgb(24, 26, 27);
+}
+.tabs .tab a {
+    color: rgba(238, 108, 113, 0.7);
+}
+.tabs .tab a:focus,
+.tabs .tab a:focus.active {
+    background-color: rgba(92, 11, 14, 0.2);
+    outline-color: invert;
+    outline-color: initial;
+}
+.tabs .tab a:hover,
+.tabs .tab a.active {
+    background-color: transparent;
+    color: rgb(238, 108, 113);
+}
+.tabs .tab.disabled a,
+.tabs .tab.disabled a:hover {
+    color: rgba(238, 108, 113, 0.4);
+}
+.tabs .indicator {
+    background-color: rgb(92, 11, 14);
+}
+.material-tooltip {
+    color: rgb(232, 230, 227);
+    background-color: rgb(38, 41, 42);
+}
+.backdrop {
+    background-color: rgb(38, 41, 42);
+}
+.btn,
+.btn-large,
+.btn-small,
+.btn-flat {
+    border-color: currentColor;
+    border-color: initial;
+    -webkit-tap-highlight-color: transparent;
+}
+.btn.disabled,
+.disabled.btn-large,
+.disabled.btn-small,
+.btn-floating.disabled,
+.btn-large.disabled,
+.btn-small.disabled,
+.btn-flat.disabled,
+.btn:disabled,
+.btn-large:disabled,
+.btn-small:disabled,
+.btn-floating:disabled,
+.btn-large:disabled,
+.btn-small:disabled,
+.btn-flat:disabled,
+.btn[disabled],
+.btn-large[disabled],
+.btn-small[disabled],
+.btn-floating[disabled],
+.btn-large[disabled],
+.btn-small[disabled],
+.btn-flat[disabled] {
+    box-shadow: none;
+    background-color: rgb(42, 46, 47) !important;
+    color: rgb(171, 164, 153) !important;
+}
+.btn.disabled:hover,
+.disabled.btn-large:hover,
+.disabled.btn-small:hover,
+.btn-floating.disabled:hover,
+.btn-large.disabled:hover,
+.btn-small.disabled:hover,
+.btn-flat.disabled:hover,
+.btn:disabled:hover,
+.btn-large:disabled:hover,
+.btn-small:disabled:hover,
+.btn-floating:disabled:hover,
+.btn-large:disabled:hover,
+.btn-small:disabled:hover,
+.btn-flat:disabled:hover,
+.btn[disabled]:hover,
+.btn-large[disabled]:hover,
+.btn-small[disabled]:hover,
+.btn-floating[disabled]:hover,
+.btn-large[disabled]:hover,
+.btn-small[disabled]:hover,
+.btn-flat[disabled]:hover {
+    background-color: rgb(42, 46, 47) !important;
+    color: rgb(171, 164, 153) !important;
+}
+.btn,
+.btn-large,
+.btn-small,
+.btn-floating,
+.btn-large,
+.btn-small,
+.btn-flat {
+    outline-color: invert;
+    outline-color: initial;
+}
+.btn:focus,
+.btn-large:focus,
+.btn-small:focus,
+.btn-floating:focus {
+    background-color: rgb(23, 100, 93);
+}
+.btn,
+.btn-large,
+.btn-small {
+    -webkit-text-decoration-color: inherited;
+            text-decoration-color: inherited;
+    -webkit-text-decoration-color: initial;
+            text-decoration-color: initial;
+    color: rgb(232, 230, 227);
+    background-color: rgb(30, 133, 123);
+}
+.btn:hover,
+.btn-large:hover,
+.btn-small:hover {
+    background-color: rgb(34, 150, 138);
+}
+.btn-floating {
+    color: rgb(232, 230, 227);
+    background-color: rgb(30, 133, 123);
+}
+.btn-floating:hover {
+    background-color: rgb(30, 133, 123);
+}
+.btn-floating i {
+    color: rgb(232, 230, 227);
+}
+button.btn-floating {
+    border-color: currentColor;
+    border-color: initial;
+}
+.fixed-action-btn.toolbar ul li a {
+    background-color: transparent;
+    box-shadow: none;
+    color: rgb(232, 230, 227);
+}
+.fixed-action-btn .fab-backdrop {
+    background-color: rgb(30, 133, 123);
+}
+.btn-flat {
+    box-shadow: none;
+    background-color: transparent;
+    color: rgb(199, 194, 187);
+}
+.btn-flat:focus,
+.btn-flat:hover {
+    box-shadow: none;
+}
+.btn-flat:focus {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.btn-flat.disabled,
+.btn-flat.btn-flat[disabled] {
+    background-color: transparent !important;
+    color: rgb(184, 178, 168) !important;
+}
+.dropdown-content {
+    background-color: rgb(24, 26, 27);
+}
+.dropdown-content:focus {
+    outline-color: invert;
+    outline-color: initial;
+}
+.dropdown-content li {
+    color: rgba(232, 230, 227, 0.87);
+}
+.dropdown-content li:hover,
+.dropdown-content li.active {
+    background-color: rgb(34, 36, 38);
+}
+.dropdown-content li:focus {
+    outline-color: invert;
+    outline-color: initial;
+}
+.dropdown-content li > a,
+.dropdown-content li > span {
+    color: rgb(97, 219, 208);
+}
+body.keyboard-focused .dropdown-content li:focus {
+    background-color: rgb(45, 49, 51);
+}
+.waves-effect {
+    -webkit-tap-highlight-color: transparent;
+}
+.waves-effect .waves-ripple {
+    background-image: none;
+    background-image: initial;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.waves-effect.waves-light .waves-ripple {
+    background-color: rgba(24, 26, 27, 0.45);
+}
+.waves-effect.waves-red .waves-ripple {
+    background-color: rgba(169, 20, 9, 0.7);
+}
+.waves-effect.waves-yellow .waves-ripple {
+    background-color: rgba(169, 151, 0, 0.7);
+}
+.waves-effect.waves-orange .waves-ripple {
+    background-color: rgba(204, 122, 0, 0.7);
+}
+.waves-effect.waves-purple .waves-ripple {
+    background-color: rgba(125, 31, 141, 0.7);
+}
+.waves-effect.waves-green .waves-ripple {
+    background-color: rgba(61, 140, 64, 0.7);
+}
+.waves-effect.waves-teal .waves-ripple {
+    background-color: rgba(0, 120, 109, 0.7); 
+}
+.waves-effect input[type="button"], .waves-effect input[type="reset"], .waves-effect input[type="submit"] {
+    border-color: currentColor;
+    border-color: initial;
+    background-image: none;
+    background-color: transparent;
+    background-color: initial;
+}
+.modal {
+    background-color: rgb(27, 29, 30);
+}
+.modal:focus {
+    outline-color: invert;
+    outline-color: initial;
+}
+.modal .modal-footer {
+    background-color: rgb(27, 29, 30);
+}
+.modal-overlay {
+    background-image: none;
+    background-image: initial;
+    background-color: rgb(0, 0, 0);
+}
+.modal.modal-fixed-footer .modal-footer {
+    border-top-color: rgba(140, 130, 115, 0.1);
+}
+.collapsible {
+    border-top-color: rgb(58, 62, 65);
+    border-right-color: rgb(58, 62, 65);
+    border-left-color: rgb(58, 62, 65);
+}
+.collapsible-header {
+    -webkit-tap-highlight-color: transparent;
+    background-color: rgb(24, 26, 27);
+    border-bottom-color: rgb(58, 62, 65);
+}
+.collapsible-header:focus {
+    outline-color: invert;
+    outline-color: initial;
+}
+.keyboard-focused .collapsible-header:focus {
+    background-color: rgb(34, 36, 38);
+}
+.collapsible-body {
+    border-bottom-color: rgb(58, 62, 65);
+}
+.sidenav .collapsible,
+.sidenav.fixed .collapsible {
+    border-color: currentColor;
+    border-color: initial;
+    box-shadow: none;
+}
+.sidenav .collapsible-header,
+.sidenav.fixed .collapsible-header {
+    background-color: transparent;
+    border-color: currentColor;
+    border-color: initial;
+}
+.sidenav .collapsible-header:hover,
+.sidenav.fixed .collapsible-header:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.sidenav .collapsible-body,
+.sidenav.fixed .collapsible-body {
+    border-color: currentColor;
+    border-color: initial;
+    background-color: rgb(24, 26, 27);
+}
+.collapsible.popout {
+    border-color: currentColor;
+    border-color: initial;
+    box-shadow: none;
+}
+.collapsible.popout > li {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.12) 0px 2px 10px 0px;
+}
+.collapsible.popout > li.active {
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 5px 11px 0px,
+    rgba(0, 0, 0, 0.15) 0px 4px 15px 0px;
+}
+.chip {
+    color: rgba(232, 230, 227, 0.6);
+    background-color: rgb(39, 43, 44);
+}
+.chip:focus {
+    outline-color: invert;
+    outline-color: initial;
+    background-color: rgb(30, 133, 123);
+    color: rgb(232, 230, 227);
+}
+.chips {
+    border-top-color: currentColor;
+    border-top-color: initial;
+    border-right-color: currentColor;
+    border-right-color: initial;
+    border-left-color: currentColor;
+    border-left-color: initial;
+    border-bottom-color: rgb(75, 82, 85);
+    box-shadow: none;
+    outline-color: invert;
+    outline-color: initial;
+}
+.chips.focus {
+    border-bottom-color: rgb(36, 158, 146);
+    box-shadow: rgb(30, 133, 123) 0px 1px 0px 0px;
+}
+.chips .input {
+    background-image: none;
+    background-color: transparent;
+    background-color: initial;
+    border-color: currentColor;
+    border-color: initial;
+    color: rgba(232, 230, 227, 0.6);
+    outline-color: invert;
+    outline-color: initial;
+}
+.chips .input:focus {
+    border-color: currentColor !important;
+    border-color: initial !important;
+    box-shadow: none !important;
+}
+#materialbox-overlay {
+    background-color: rgb(31, 33, 35);
+}
+.materialbox-caption {
+    color: rgb(232, 230, 227);
+}
+select:focus {
+    outline-color: rgb(22, 100, 92);
+}
+button:focus {
+    outline-color: invert;
+    outline-color: initial;
+    background-color: rgb(34, 146, 135);
+}
+label {
+    color: rgb(171, 163, 152);
+}
+::-moz-placeholder {
+    color: rgb(203, 198, 192);
+}
+:-ms-input-placeholder {
+    color: rgb(203, 198, 192);
+}
+::placeholder {
+    color: rgb(203, 198, 192);
+}
+input:not([type]), input[type="text"]:not(.browser-default), input[type="password"]:not(.browser-default), input[type="email"]:not(.browser-default), input[type="url"]:not(.browser-default), input[type="time"]:not(.browser-default), input[type="date"]:not(.browser-default), input[type="datetime"]:not(.browser-default), input[type="datetime-local"]:not(.browser-default), input[type="tel"]:not(.browser-default), input[type="number"]:not(.browser-default), input[type="search"]:not(.browser-default),
+textarea.materialize-textarea {
+    background-color: transparent;
+    border-top-color: currentColor;
+    border-top-color: initial;
+    border-right-color: currentColor;
+    border-right-color: initial;
+    border-left-color: currentColor;
+    border-left-color: initial;
+    border-bottom-color: rgb(75, 82, 85);
+    outline-color: invert;
+    outline-color: initial;
+    box-shadow: none;
+}
+input:not([type]):disabled,
+input:not([type])[readonly="readonly"], input[type="text"]:not(.browser-default):disabled, input[type="text"]:not(.browser-default)[readonly="readonly"], input[type="password"]:not(.browser-default):disabled, input[type="password"]:not(.browser-default)[readonly="readonly"], input[type="email"]:not(.browser-default):disabled, input[type="email"]:not(.browser-default)[readonly="readonly"], input[type="url"]:not(.browser-default):disabled, input[type="url"]:not(.browser-default)[readonly="readonly"], input[type="time"]:not(.browser-default):disabled, input[type="time"]:not(.browser-default)[readonly="readonly"], input[type="date"]:not(.browser-default):disabled, input[type="date"]:not(.browser-default)[readonly="readonly"], input[type="datetime"]:not(.browser-default):disabled, input[type="datetime"]:not(.browser-default)[readonly="readonly"], input[type="datetime-local"]:not(.browser-default):disabled, input[type="datetime-local"]:not(.browser-default)[readonly="readonly"], input[type="tel"]:not(.browser-default):disabled, input[type="tel"]:not(.browser-default)[readonly="readonly"], input[type="number"]:not(.browser-default):disabled, input[type="number"]:not(.browser-default)[readonly="readonly"], input[type="search"]:not(.browser-default):disabled, input[type="search"]:not(.browser-default)[readonly="readonly"], textarea.materialize-textarea:disabled, textarea.materialize-textarea[readonly="readonly"] {
+    color: rgba(232, 230, 227, 0.42);
+    border-bottom-color: rgba(140, 130, 115, 0.42);
+}
+input:not([type]):disabled + label,
+input:not([type])[readonly="readonly"] + label, input[type="text"]:not(.browser-default):disabled + label, input[type="text"]:not(.browser-default)[readonly="readonly"] + label, input[type="password"]:not(.browser-default):disabled + label, input[type="password"]:not(.browser-default)[readonly="readonly"] + label, input[type="email"]:not(.browser-default):disabled + label, input[type="email"]:not(.browser-default)[readonly="readonly"] + label, input[type="url"]:not(.browser-default):disabled + label, input[type="url"]:not(.browser-default)[readonly="readonly"] + label, input[type="time"]:not(.browser-default):disabled + label, input[type="time"]:not(.browser-default)[readonly="readonly"] + label, input[type="date"]:not(.browser-default):disabled + label, input[type="date"]:not(.browser-default)[readonly="readonly"] + label, input[type="datetime"]:not(.browser-default):disabled + label, input[type="datetime"]:not(.browser-default)[readonly="readonly"] + label, input[type="datetime-local"]:not(.browser-default):disabled + label, input[type="datetime-local"]:not(.browser-default)[readonly="readonly"] + label, input[type="tel"]:not(.browser-default):disabled + label, input[type="tel"]:not(.browser-default)[readonly="readonly"] + label, input[type="number"]:not(.browser-default):disabled + label, input[type="number"]:not(.browser-default)[readonly="readonly"] + label, input[type="search"]:not(.browser-default):disabled + label, input[type="search"]:not(.browser-default)[readonly="readonly"] + label, textarea.materialize-textarea:disabled + label, textarea.materialize-textarea[readonly="readonly"] + label {
+    color: rgba(232, 230, 227, 0.42);
+}
+input:not([type]):focus:not([readonly]), input[type="text"]:not(.browser-default):focus:not([readonly]), input[type="password"]:not(.browser-default):focus:not([readonly]), input[type="email"]:not(.browser-default):focus:not([readonly]), input[type="url"]:not(.browser-default):focus:not([readonly]), input[type="time"]:not(.browser-default):focus:not([readonly]), input[type="date"]:not(.browser-default):focus:not([readonly]), input[type="datetime"]:not(.browser-default):focus:not([readonly]), input[type="datetime-local"]:not(.browser-default):focus:not([readonly]), input[type="tel"]:not(.browser-default):focus:not([readonly]), input[type="number"]:not(.browser-default):focus:not([readonly]), input[type="search"]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom-color: rgb(36, 158, 146);
+    box-shadow: rgb(30, 133, 123) 0px 1px 0px 0px;
+}
+input:not([type]):focus:not([readonly]) + label, input[type="text"]:not(.browser-default):focus:not([readonly]) + label, input[type="password"]:not(.browser-default):focus:not([readonly]) + label, input[type="email"]:not(.browser-default):focus:not([readonly]) + label, input[type="url"]:not(.browser-default):focus:not([readonly]) + label, input[type="time"]:not(.browser-default):focus:not([readonly]) + label, input[type="date"]:not(.browser-default):focus:not([readonly]) + label, input[type="datetime"]:not(.browser-default):focus:not([readonly]) + label, input[type="datetime-local"]:not(.browser-default):focus:not([readonly]) + label, input[type="tel"]:not(.browser-default):focus:not([readonly]) + label, input[type="number"]:not(.browser-default):focus:not([readonly]) + label, input[type="search"]:not(.browser-default):focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label {
+    color: rgb(97, 219, 208);
+}
+input:not([type]):focus.valid ~ label, input[type="text"]:not(.browser-default):focus.valid ~ label, input[type="password"]:not(.browser-default):focus.valid ~ label, input[type="email"]:not(.browser-default):focus.valid ~ label, input[type="url"]:not(.browser-default):focus.valid ~ label, input[type="time"]:not(.browser-default):focus.valid ~ label, input[type="date"]:not(.browser-default):focus.valid ~ label, input[type="datetime"]:not(.browser-default):focus.valid ~ label, input[type="datetime-local"]:not(.browser-default):focus.valid ~ label, input[type="tel"]:not(.browser-default):focus.valid ~ label, input[type="number"]:not(.browser-default):focus.valid ~ label, input[type="search"]:not(.browser-default):focus.valid ~ label,
+textarea.materialize-textarea:focus.valid ~ label {
+    color: rgb(97, 186, 101);
+}
+input:not([type]):focus.invalid ~ label, input[type="text"]:not(.browser-default):focus.invalid ~ label, input[type="password"]:not(.browser-default):focus.invalid ~ label, input[type="email"]:not(.browser-default):focus.invalid ~ label, input[type="url"]:not(.browser-default):focus.invalid ~ label, input[type="time"]:not(.browser-default):focus.invalid ~ label, input[type="date"]:not(.browser-default):focus.invalid ~ label, input[type="datetime"]:not(.browser-default):focus.invalid ~ label, input[type="datetime-local"]:not(.browser-default):focus.invalid ~ label, input[type="tel"]:not(.browser-default):focus.invalid ~ label, input[type="number"]:not(.browser-default):focus.invalid ~ label, input[type="search"]:not(.browser-default):focus.invalid ~ label,
+textarea.materialize-textarea:focus.invalid ~ label {
+    color: rgb(245, 78, 66);
+}
+input.valid:not([type]),
+input.valid:not([type]):focus, input.valid[type="text"]:not(.browser-default), input.valid[type="text"]:not(.browser-default):focus, input.valid[type="password"]:not(.browser-default), input.valid[type="password"]:not(.browser-default):focus, input.valid[type="email"]:not(.browser-default), input.valid[type="email"]:not(.browser-default):focus, input.valid[type="url"]:not(.browser-default), input.valid[type="url"]:not(.browser-default):focus, input.valid[type="time"]:not(.browser-default), input.valid[type="time"]:not(.browser-default):focus, input.valid[type="date"]:not(.browser-default), input.valid[type="date"]:not(.browser-default):focus, input.valid[type="datetime"]:not(.browser-default), input.valid[type="datetime"]:not(.browser-default):focus, input.valid[type="datetime-local"]:not(.browser-default), input.valid[type="datetime-local"]:not(.browser-default):focus, input.valid[type="tel"]:not(.browser-default), input.valid[type="tel"]:not(.browser-default):focus, input.valid[type="number"]:not(.browser-default), input.valid[type="number"]:not(.browser-default):focus, input.valid[type="search"]:not(.browser-default), input.valid[type="search"]:not(.browser-default):focus,
+textarea.materialize-textarea.valid,
+textarea.materialize-textarea.valid:focus,
+.select-wrapper.valid > input.select-dropdown {
+    border-bottom-color: rgb(54, 125, 57);
+    box-shadow: rgb(61, 140, 64) 0px 1px 0px 0px;
+}
+input.invalid:not([type]),
+input.invalid:not([type]):focus, input.invalid[type="text"]:not(.browser-default), input.invalid[type="text"]:not(.browser-default):focus, input.invalid[type="password"]:not(.browser-default), input.invalid[type="password"]:not(.browser-default):focus, input.invalid[type="email"]:not(.browser-default), input.invalid[type="email"]:not(.browser-default):focus, input.invalid[type="url"]:not(.browser-default), input.invalid[type="url"]:not(.browser-default):focus, input.invalid[type="time"]:not(.browser-default), input.invalid[type="time"]:not(.browser-default):focus, input.invalid[type="date"]:not(.browser-default), input.invalid[type="date"]:not(.browser-default):focus, input.invalid[type="datetime"]:not(.browser-default), input.invalid[type="datetime"]:not(.browser-default):focus, input.invalid[type="datetime-local"]:not(.browser-default), input.invalid[type="datetime-local"]:not(.browser-default):focus, input.invalid[type="tel"]:not(.browser-default), input.invalid[type="tel"]:not(.browser-default):focus, input.invalid[type="number"]:not(.browser-default), input.invalid[type="number"]:not(.browser-default):focus, input.invalid[type="search"]:not(.browser-default), input.invalid[type="search"]:not(.browser-default):focus,
+textarea.materialize-textarea.invalid,
+textarea.materialize-textarea.invalid:focus,
+.select-wrapper.invalid > input.select-dropdown,
+.select-wrapper.invalid > input.select-dropdown:focus {
+    border-bottom-color: rgb(157, 19, 9);
+    box-shadow: rgb(169, 20, 9) 0px 1px 0px 0px;
+}
+input:not([type]).valid ~ .helper-text[data-success],
+input:not([type]):focus.valid ~ .helper-text[data-success],
+input:not([type]).invalid ~ .helper-text[data-error],
+input:not([type]):focus.invalid ~ .helper-text[data-error], input[type="text"]:not(.browser-default).valid ~ .helper-text[data-success], input[type="text"]:not(.browser-default):focus.valid ~ .helper-text[data-success], input[type="text"]:not(.browser-default).invalid ~ .helper-text[data-error], input[type="text"]:not(.browser-default):focus.invalid ~ .helper-text[data-error], input[type="password"]:not(.browser-default).valid ~ .helper-text[data-success], input[type="password"]:not(.browser-default):focus.valid ~ .helper-text[data-success], input[type="password"]:not(.browser-default).invalid ~ .helper-text[data-error], input[type="password"]:not(.browser-default):focus.invalid ~ .helper-text[data-error], input[type="email"]:not(.browser-default).valid ~ .helper-text[data-success], input[type="email"]:not(.browser-default):focus.valid ~ .helper-text[data-success], input[type="email"]:not(.browser-default).invalid ~ .helper-text[data-error], input[type="email"]:not(.browser-default):focus.invalid ~ .helper-text[data-error], input[type="url"]:not(.browser-default).valid ~ .helper-text[data-success], input[type="url"]:not(.browser-default):focus.valid ~ .helper-text[data-success], input[type="url"]:not(.browser-default).invalid ~ .helper-text[data-error], input[type="url"]:not(.browser-default):focus.invalid ~ .helper-text[data-error], input[type="time"]:not(.browser-default).valid ~ .helper-text[data-success], input[type="time"]:not(.browser-default):focus.valid ~ .helper-text[data-success], input[type="time"]:not(.browser-default).invalid ~ .helper-text[data-error], input[type="time"]:not(.browser-default):focus.invalid ~ .helper-text[data-error], input[type="date"]:not(.browser-default).valid ~ .helper-text[data-success], input[type="date"]:not(.browser-default):focus.valid ~ .helper-text[data-success], input[type="date"]:not(.browser-default).invalid ~ .helper-text[data-error], input[type="date"]:not(.browser-default):focus.invalid ~ .helper-text[data-error], input[type="datetime"]:not(.browser-default).valid ~ .helper-text[data-success], input[type="datetime"]:not(.browser-default):focus.valid ~ .helper-text[data-success], input[type="datetime"]:not(.browser-default).invalid ~ .helper-text[data-error], input[type="datetime"]:not(.browser-default):focus.invalid ~ .helper-text[data-error], input[type="datetime-local"]:not(.browser-default).valid ~ .helper-text[data-success], input[type="datetime-local"]:not(.browser-default):focus.valid ~ .helper-text[data-success], input[type="datetime-local"]:not(.browser-default).invalid ~ .helper-text[data-error], input[type="datetime-local"]:not(.browser-default):focus.invalid ~ .helper-text[data-error], input[type="tel"]:not(.browser-default).valid ~ .helper-text[data-success], input[type="tel"]:not(.browser-default):focus.valid ~ .helper-text[data-success], input[type="tel"]:not(.browser-default).invalid ~ .helper-text[data-error], input[type="tel"]:not(.browser-default):focus.invalid ~ .helper-text[data-error], input[type="number"]:not(.browser-default).valid ~ .helper-text[data-success], input[type="number"]:not(.browser-default):focus.valid ~ .helper-text[data-success], input[type="number"]:not(.browser-default).invalid ~ .helper-text[data-error], input[type="number"]:not(.browser-default):focus.invalid ~ .helper-text[data-error], input[type="search"]:not(.browser-default).valid ~ .helper-text[data-success], input[type="search"]:not(.browser-default):focus.valid ~ .helper-text[data-success], input[type="search"]:not(.browser-default).invalid ~ .helper-text[data-error], input[type="search"]:not(.browser-default):focus.invalid ~ .helper-text[data-error],
+textarea.materialize-textarea.valid ~ .helper-text[data-success],
+textarea.materialize-textarea:focus.valid ~ .helper-text[data-success],
+textarea.materialize-textarea.invalid ~ .helper-text[data-error],
+textarea.materialize-textarea:focus.invalid ~ .helper-text[data-error],
+.select-wrapper.valid .helper-text[data-success],
+.select-wrapper.invalid ~ .helper-text[data-error] {
+    color: transparent;
+}
+input:not([type]).valid ~ .helper-text::after,
+input:not([type]):focus.valid ~ .helper-text::after, input[type="text"]:not(.browser-default).valid ~ .helper-text::after, input[type="text"]:not(.browser-default):focus.valid ~ .helper-text::after, input[type="password"]:not(.browser-default).valid ~ .helper-text::after, input[type="password"]:not(.browser-default):focus.valid ~ .helper-text::after, input[type="email"]:not(.browser-default).valid ~ .helper-text::after, input[type="email"]:not(.browser-default):focus.valid ~ .helper-text::after, input[type="url"]:not(.browser-default).valid ~ .helper-text::after, input[type="url"]:not(.browser-default):focus.valid ~ .helper-text::after, input[type="time"]:not(.browser-default).valid ~ .helper-text::after, input[type="time"]:not(.browser-default):focus.valid ~ .helper-text::after, input[type="date"]:not(.browser-default).valid ~ .helper-text::after, input[type="date"]:not(.browser-default):focus.valid ~ .helper-text::after, input[type="datetime"]:not(.browser-default).valid ~ .helper-text::after, input[type="datetime"]:not(.browser-default):focus.valid ~ .helper-text::after, input[type="datetime-local"]:not(.browser-default).valid ~ .helper-text::after, input[type="datetime-local"]:not(.browser-default):focus.valid ~ .helper-text::after, input[type="tel"]:not(.browser-default).valid ~ .helper-text::after, input[type="tel"]:not(.browser-default):focus.valid ~ .helper-text::after, input[type="number"]:not(.browser-default).valid ~ .helper-text::after, input[type="number"]:not(.browser-default):focus.valid ~ .helper-text::after, input[type="search"]:not(.browser-default).valid ~ .helper-text::after, input[type="search"]:not(.browser-default):focus.valid ~ .helper-text::after,
+textarea.materialize-textarea.valid ~ .helper-text::after,
+textarea.materialize-textarea:focus.valid ~ .helper-text::after,
+.select-wrapper.valid ~ .helper-text::after {
+    color: rgb(97, 186, 101);
+}
+input:not([type]).invalid ~ .helper-text::after,
+input:not([type]):focus.invalid ~ .helper-text::after, input[type="text"]:not(.browser-default).invalid ~ .helper-text::after, input[type="text"]:not(.browser-default):focus.invalid ~ .helper-text::after, input[type="password"]:not(.browser-default).invalid ~ .helper-text::after, input[type="password"]:not(.browser-default):focus.invalid ~ .helper-text::after, input[type="email"]:not(.browser-default).invalid ~ .helper-text::after, input[type="email"]:not(.browser-default):focus.invalid ~ .helper-text::after, input[type="url"]:not(.browser-default).invalid ~ .helper-text::after, input[type="url"]:not(.browser-default):focus.invalid ~ .helper-text::after, input[type="time"]:not(.browser-default).invalid ~ .helper-text::after, input[type="time"]:not(.browser-default):focus.invalid ~ .helper-text::after, input[type="date"]:not(.browser-default).invalid ~ .helper-text::after, input[type="date"]:not(.browser-default):focus.invalid ~ .helper-text::after, input[type="datetime"]:not(.browser-default).invalid ~ .helper-text::after, input[type="datetime"]:not(.browser-default):focus.invalid ~ .helper-text::after, input[type="datetime-local"]:not(.browser-default).invalid ~ .helper-text::after, input[type="datetime-local"]:not(.browser-default):focus.invalid ~ .helper-text::after, input[type="tel"]:not(.browser-default).invalid ~ .helper-text::after, input[type="tel"]:not(.browser-default):focus.invalid ~ .helper-text::after, input[type="number"]:not(.browser-default).invalid ~ .helper-text::after, input[type="number"]:not(.browser-default):focus.invalid ~ .helper-text::after, input[type="search"]:not(.browser-default).invalid ~ .helper-text::after, input[type="search"]:not(.browser-default):focus.invalid ~ .helper-text::after,
+textarea.materialize-textarea.invalid ~ .helper-text::after,
+textarea.materialize-textarea:focus.invalid ~ .helper-text::after,
+.select-wrapper.invalid ~ .helper-text::after {
+    color: rgb(245, 78, 66);
+}
+.input-field > label {
+    color: rgb(171, 163, 152);
+}
+.input-field .helper-text {
+    color: rgba(232, 230, 227, 0.54);
+}
+.input-field .prefix.active {
+    color: rgb(97, 219, 208); 
+}
+.nav-wrapper .input-field input[type="search"] {
+    border-color: currentColor;
+    border-color: initial; box-shadow: none; 
+}
+.input-field input[type="search"]:focus:not(.browser-default) {
+    background-color: rgb(24, 26, 27);
+    border-color: currentColor;
+    border-color: initial;
+    box-shadow: none;
+    color: rgb(189, 183, 175); 
+}
+.input-field input[type="search"]:focus:not(.browser-default) + label i, .input-field input[type="search"]:focus:not(.browser-default) ~ .mdi-navigation-close, .input-field input[type="search"]:focus:not(.browser-default) ~ .material-icons {
+    color: rgb(189, 183, 175); 
+}
+.input-field input[type="search"] ~ .mdi-navigation-close, .input-field input[type="search"] ~ .material-icons {
+    color: transparent;
+}
+textarea {
+    background-color: transparent;
+}
+.autocomplete-content li .highlight {
+    color: rgb(189, 183, 175); 
+}
+[type="radio"]:not(:checked) + span::before, [type="radio"]:not(:checked) + span::after {
+    border-color: rgb(110, 102, 91); 
+}
+[type="radio"]:checked + span::before {
+    border-color: transparent; 
+}
+[type="radio"]:checked + span::after, [type="radio"].with-gap:checked + span::before, [type="radio"].with-gap:checked + span::after {
+    border-color: rgb(36, 158, 146); 
+}
+[type="radio"]:checked + span::after, [type="radio"].with-gap:checked + span::after {
+    background-color: rgb(30, 133, 123); 
+}
+[type="radio"].tabbed:focus + span::before {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 10px; 
+}
+[type="radio"].with-gap:disabled:checked + span::before {
+    border-color: rgba(140, 130, 115, 0.42); 
+}
+[type="radio"].with-gap:disabled:checked + span::after {
+    border-color: currentColor;
+    border-color: initial;
+    background-color: rgba(0, 0, 0, 0.42); 
+}
+[type="radio"]:disabled:not(:checked) + span::before, [type="radio"]:disabled:checked + span::before {
+    background-color: transparent;
+    border-color: rgba(140, 130, 115, 0.42); 
+}
+[type="radio"]:disabled + span {
+    color: rgba(232, 230, 227, 0.42); 
+}
+[type="radio"]:disabled:not(:checked) + span::before {
+    border-color: rgba(140, 130, 115, 0.42); 
+}
+[type="radio"]:disabled:checked + span::after {
+    background-color: rgba(0, 0, 0, 0.42);
+    border-color: rgb(78, 85, 88); 
+}
+[type="checkbox"] + span:not(.lever)::before, [type="checkbox"]:not(.filled-in) + span:not(.lever)::after {
+    border-color: rgb(110, 102, 91); 
+}
+[type="checkbox"]:not(.filled-in) + span:not(.lever)::after {
+    border-color: currentColor;
+    border-color: initial; 
+}
+[type="checkbox"]:not(:checked):disabled + span:not(.lever)::before {
+    border-color: currentColor;
+    border-color: initial;
+    background-color: rgba(0, 0, 0, 0.42); 
+}
+[type="checkbox"].tabbed:focus + span:not(.lever)::after {
+    border-color: currentColor;
+    border-color: initial;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 10px;
+    background-color: rgba(0, 0, 0, 0.1); 
+}
+[type="checkbox"]:checked + span:not(.lever)::before {
+    border-color: transparent rgb(36, 158, 146) rgb(36, 158, 146) transparent; 
+}
+[type="checkbox"]:checked:disabled + span::before {
+    border-right-color: rgba(140, 130, 115, 0.42);
+    border-bottom-color: rgba(140, 130, 115, 0.42); 
+}
+[type="checkbox"]:indeterminate + span:not(.lever)::before {
+    border-top-color: currentColor;
+    border-top-color: initial;
+    border-left-color: currentColor;
+    border-left-color: initial;
+    border-right-color: rgb(36, 158, 146); border-bottom-color: currentColor; border-bottom-color: initial; 
+}
+[type="checkbox"]:indeterminate:disabled + span:not(.lever)::before {
+    border-right-color: rgba(140, 130, 115, 0.42); background-color: transparent; 
+}
+[type="checkbox"].filled-in:not(:checked) + span:not(.lever)::before {
+    border-color: transparent; 
+}
+[type="checkbox"].filled-in:not(:checked) + span:not(.lever)::after {
+    background-color: transparent;
+    border-color: rgb(110, 102, 91); 
+}
+[type="checkbox"].filled-in:checked + span:not(.lever)::before {
+    border-color: transparent rgb(48, 52, 54) rgb(48, 52, 54) transparent; 
+}
+[type="checkbox"].filled-in:checked + span:not(.lever)::after {
+    border-color: rgb(36, 158, 146);
+    background-color: rgb(30, 133, 123); 
+}
+[type="checkbox"].filled-in.tabbed:focus + span:not(.lever)::after {
+    border-color: rgb(110, 102, 91);
+    background-color: rgba(0, 0, 0, 0.1); 
+}
+[type="checkbox"].filled-in.tabbed:checked:focus + span:not(.lever)::after {
+    background-color: rgb(30, 133, 123);
+    border-color: rgb(36, 158, 146); 
+}
+[type="checkbox"].filled-in:disabled:not(:checked) + span:not(.lever)::before {
+    background-color: transparent; border-color: transparent; 
+}
+[type="checkbox"].filled-in:disabled:not(:checked) + span:not(.lever)::after {
+    border-color: transparent;
+    background-color: rgb(84, 91, 95); 
+}
+[type="checkbox"].filled-in:disabled:checked + span:not(.lever)::before {
+    background-color: transparent; 
+}
+[type="checkbox"].filled-in:disabled:checked + span:not(.lever)::after {
+    background-color: rgb(84, 91, 95);
+    border-color: rgb(78, 85, 88); 
+}
+.switch, .switch * {
+    -webkit-tap-highlight-color: transparent; 
+}
+.switch label input[type="checkbox"]:checked + .lever {
+    background-color: rgb(50, 109, 105); 
+}
+.switch label input[type="checkbox"]:checked + .lever::after {
+    background-color: rgb(30, 133, 123);
+}
+.switch label .lever {
+    background-color: rgba(0, 0, 0, 0.38);
+}
+.switch label .lever::before {
+    background-color: rgba(30, 133, 123, 0.15);
+}
+.switch label .lever::after {
+    background-color: rgb(32, 35, 36);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px,
+    rgba(0, 0, 0, 0.14) 0px 2px 2px 0px,
+    rgba(0, 0, 0, 0.12) 0px 1px 5px 0px; 
+}
+input[type="checkbox"]:checked:not(:disabled) ~ .lever:active::before, input[type="checkbox"]:checked:not(:disabled).tabbed:focus ~ .lever::before {
+    background-color: rgba(30, 133, 123, 0.15); 
+}
+input[type="checkbox"]:not(:disabled) ~ .lever:active::before, input[type="checkbox"]:not(:disabled).tabbed:focus ~ .lever::before {
+    background-color: rgba(0, 0, 0, 0.08); 
+}
+.switch input[type="checkbox"][disabled] + .lever {
+    background-color: rgba(0, 0, 0, 0.12); 
+}
+.switch label input[type="checkbox"][disabled] + .lever::after, .switch label input[type="checkbox"][disabled]:checked + .lever::after {
+    background-color: rgb(84, 91, 95);
+}
+select {
+    background-color: rgba(24, 26, 27, 0.9);
+    border-color: rgb(52, 56, 58);
+}
+.select-wrapper input.select-dropdown {
+    background-color: transparent;
+    border-top-color: currentColor;
+    border-top-color: initial;
+    border-right-color: currentColor;
+    border-right-color: initial;
+    border-left-color: currentColor;
+    border-left-color: initial;
+    border-bottom-color: rgb(75, 82, 85);
+    outline-color: invert;
+    outline-color: initial;
+}
+.select-wrapper input.select-dropdown:focus {
+    border-bottom-color: rgb(36, 158, 146);
+}
+.select-wrapper .caret {
+    fill: rgba(232, 230, 227, 0.87);
+}
+select:disabled {
+    color: rgba(232, 230, 227, 0.42);
+}
+.select-wrapper.disabled + label {
+    color: rgba(232, 230, 227, 0.42);
+}
+.select-wrapper.disabled .caret {
+    fill: rgba(232, 230, 227, 0.42);
+}
+.select-wrapper input.select-dropdown:disabled {
+    color: rgba(232, 230, 227, 0.42);
+}
+.select-wrapper i {
+    color: rgba(232, 230, 227, 0.3);
+}
+.select-dropdown li.disabled,
+.select-dropdown li.disabled > span,
+.select-dropdown li.optgroup {
+    color: rgba(232, 230, 227, 0.3);
+    background-color: transparent;
+}
+body.keyboard-focused .select-dropdown.dropdown-content li:focus {
+    background-color: rgba(0, 0, 0, 0.08);
+}
+.select-dropdown.dropdown-content li:hover {
+    background-color: rgba(0, 0, 0, 0.08);
+}
+.select-dropdown.dropdown-content li.selected {
+    background-color: rgba(0, 0, 0, 0.03);
+}
+.select-dropdown li.optgroup {
+    border-top-color: rgb(53, 57, 59);
+}
+.select-dropdown li.optgroup.selected > span {
+    color: rgba(232, 230, 227, 0.7);
+}
+.select-dropdown li.optgroup > span {
+    color: rgba(232, 230, 227, 0.4); 
+}
+input[type="range"] {
+    background-color: transparent; border-color: currentColor; border-color: initial; outline-color: invert; outline-color: initial; 
+}
+input[type="range"]:focus {
+    outline-color: invert;
+    outline-color: initial; 
+}
+input[type="range"] + .thumb {
+    border-color: currentColor;
+    border-color: initial;
+    background-color: rgb(30, 133, 123); 
+}
+input[type="range"] + .thumb .value {
+    color: rgb(97, 219, 208); 
+}
+input[type="range"] + .thumb.active .value {
+    color: rgb(232, 230, 227); 
+}
+input[type="range"]::-webkit-slider-runnable-track {
+    background-image: none;
+    background-image: initial;
+    background-color: rgb(59, 64, 66); border-color: currentColor; border-color: initial; 
+}
+input[type="range"]::-webkit-slider-thumb {
+    border-color: currentColor;
+    border-color: initial;
+    background-image: none;
+    background-image: initial;
+    background-color: rgb(30, 133, 123); 
+}
+.keyboard-focused input[type="range"]:focus:not(.active)::-webkit-slider-thumb {
+    box-shadow: rgba(30, 133, 123, 0.26) 0px 0px 0px 10px; 
+}
+input[type="range"] {
+    border-color: rgb(48, 52, 54);
+}
+.table-of-contents a {
+    color: rgb(158, 150, 137);
+}
+.table-of-contents a:hover {
+    color: rgb(177, 170, 160);
+    border-left-color: rgb(135, 16, 20);
+}
+.table-of-contents a.active {
+    border-left-color: rgb(135, 16, 20);
+}
+.sidenav {
+    background-color: rgb(24, 26, 27);
+}
+.sidenav li.active {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.sidenav li > a {
+    color: rgba(232, 230, 227, 0.87);
+}
+.sidenav li > a:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.sidenav li > a.btn,
+.sidenav li > a.btn-large,
+.sidenav li > a.btn-small,
+.sidenav li > a.btn-large,
+.sidenav li > a.btn-floating {
+    color: rgb(232, 230, 227);
+}
+.sidenav li > a.btn-flat {
+    color: rgb(199, 194, 187);
+}
+.sidenav li > a.btn:hover,
+.sidenav li > a.btn-large:hover,
+.sidenav li > a.btn-small:hover,
+.sidenav li > a.btn-large:hover {
+    background-color: rgb(34, 150, 138);
+}
+.sidenav li > a.btn-floating:hover {
+    background-color: rgb(30, 133, 123); 
+}
+.sidenav li > a > i, .sidenav li > a > [class^="mdi-"], .sidenav li > a li > a > [class*="mdi-"],
+.sidenav li > a > i.material-icons {
+    color: rgba(232, 230, 227, 0.54);
+}
+.sidenav .subheader {
+    color: rgba(232, 230, 227, 0.54);
+}
+.sidenav .subheader:hover {
+    background-color: transparent;
+}
+.sidenav .user-view > a:hover {
+    background-color: transparent;
+}
+.sidenav .collapsible-body > ul:not(.collapsible) > li.active,
+.sidenav.sidenav-fixed .collapsible-body > ul:not(.collapsible) > li.active {
+    background-color: rgb(133, 16, 20);
+}
+.sidenav .collapsible-body > ul:not(.collapsible) > li.active a,
+.sidenav.sidenav-fixed .collapsible-body > ul:not(.collapsible) > li.active a {
+    color: rgb(232, 230, 227);
+}
+.sidenav-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.spinner-layer {
+    border-color: rgb(36, 158, 146);
+}
+.spinner-blue,
+.spinner-blue-only {
+    border-color: rgb(9, 63, 153);
+}
+.spinner-red,
+.spinner-red-only {
+    border-color: rgb(146, 36, 26);
+}
+.spinner-yellow,
+.spinner-yellow-only {
+    border-color: rgb(182, 134, 0);
+}
+.spinner-green,
+.spinner-green-only {
+    border-color: rgb(18, 186, 104);
+}
+.gap-patch {
+    border-color: inherit;
+}
+.circle-clipper {
+    border-color: inherit;
+}
+.circle-clipper .circle {
+    border-top-color: inherit;
+    border-right-color: inherit;
+    border-left-color: inherit;
+    border-bottom-color: transparent !important;
+}
+.circle-clipper.left .circle {
+    border-right-color: transparent !important;
+}
+.circle-clipper.right .circle {
+    border-left-color: transparent !important;
+}
+.slider .slides {
+    background-color: rgb(79, 85, 89);
+}
+.slider .slides li .caption {
+    color: rgb(232, 230, 227);
+}
+.slider .slides li .caption p {
+    color: rgb(212, 209, 203);
+}
+.slider .indicators .indicator-item {
+    background-color: rgb(42, 45, 47);
+}
+.slider .indicators .indicator-item.active {
+    background-color: rgb(61, 140, 64);
+}
+.carousel .indicators .indicator-item {
+    background-color: rgba(24, 26, 27, 0.5);
+}
+.carousel .indicators .indicator-item.active {
+    background-color: rgb(24, 26, 27);
+}
+.tap-target {
+    background-color: rgb(133, 16, 20);
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 20px 20px 0px,
+    rgba(0, 0, 0, 0.12) 0px 10px 50px 0px,
+    rgba(0, 0, 0, 0.2) 0px 30px 10px -20px;
+}
+.tap-target-wave::before,
+.tap-target-wave::after {
+    background-color: rgb(24, 26, 27);
+}
+.tap-target-origin:not(.btn):not(.btn-large):not(.btn-small),
+.tap-target-origin:not(.btn):not(.btn-large):not(.btn-small):hover {
+    background-image: none;
+    background-color: transparent;
+    background-color: initial;
+}
+.pulse::before {
+    background-color: inherit;
+}
+.datepicker-controls .select-wrapper input {
+    border-bottom-color: currentColor;
+    border-bottom-color: initial;
+}
+.datepicker-controls .select-wrapper input:focus {
+    border-bottom-color: currentColor;
+    border-bottom-color: initial;
+}
+.month-prev,
+.month-next {
+    background-color: transparent;
+    border-color: currentColor;
+    border-color: initial;
+}
+.datepicker-date-display {
+    background-color: rgb(30, 133, 123);
+    color: rgb(232, 230, 227);
+}
+.datepicker-date-display .year-text {
+    color: rgba(232, 230, 227, 0.7);
+}
+.datepicker-table thead {
+    border-bottom-color: currentColor;
+    border-bottom-color: initial;
+}
+.datepicker-table tr {
+    border-color: currentColor;
+    border-color: initial;
+}
+.datepicker-table abbr {
+    -webkit-text-decoration-color: inherited;
+            text-decoration-color: inherited;
+    -webkit-text-decoration-color: initial;
+            text-decoration-color: initial;
+    color: rgb(168, 160, 149);
+}
+.datepicker-table td.is-today {
+    color: rgb(97, 219, 208);
+}
+.datepicker-table td.is-selected {
+    background-color: rgb(30, 133, 123);
+    color: rgb(232, 230, 227);
+}
+.datepicker-table td.is-outside-current-month,
+.datepicker-table td.is-disabled {
+    color: rgba(232, 230, 227, 0.3);
+}
+.datepicker-day-button {
+    background-color: transparent;
+    border-color: currentColor;
+    border-color: initial;
+    color: inherit;
+}
+.datepicker-day-button:focus {
+    background-color: rgba(34, 129, 120, 0.25);
+}
+.datepicker-cancel,
+.datepicker-clear,
+.datepicker-today,
+.datepicker-done {
+    color: rgb(97, 219, 208);
+}
+.datepicker-clear {
+    color: rgb(245, 78, 66);
+}
+.text-primary {
+    color: rgb(232, 230, 227);
+}
+.timepicker-digital-display {
+    background-color: rgb(30, 133, 123);
+}
+.timepicker-text-container {
+    color: rgba(232, 230, 227, 0.6);
+}
+.timepicker-plate {
+    background-color: rgb(34, 36, 38);
+}
+.timepicker-tick {
+    color: rgba(232, 230, 227, 0.87);
+}
+.timepicker-tick.active,
+.timepicker-tick:hover {
+    background-color: rgba(30, 133, 123, 0.25);
+}
+.timepicker-canvas line {
+    stroke: rgb(97, 219, 208);
+}
+.timepicker-canvas-bearing {
+    stroke: none;
+    fill: rgb(97, 219, 208);
+}
+.timepicker-canvas-bg {
+    stroke: none;
+    fill: rgb(97, 219, 208);
+}
+.timepicker-clear {
+    color: rgb(245, 78, 66);
+}
+.timepicker-close {
+    color: rgb(97, 219, 208);
+}
+.goog-te-banner-frame {
+    border-top-color: currentColor;
+    border-top-color: initial;
+    border-right-color: currentColor;
+    border-right-color: initial;
+    border-left-color: currentColor;
+    border-left-color: initial;
+    border-bottom-color: rgb(32, 63, 126);
+    box-shadow: rgb(82, 88, 92) 0px 0px 8px 1px;
+}
+.goog-te-menu-frame {
+    border-color: currentColor;
+    border-color: initial;
+    box-shadow: rgb(82, 88, 92) 0px 3px 8px 2px;
+}
+.goog-te-ftab-frame {
+    border-color: currentColor;
+    border-color: initial;
+}
+.goog-te-gadget {
+    color: rgb(168, 160, 149);
+}
+.goog-te-gadget img {
+    border-color: currentColor;
+    border-color: initial;
+}
+.goog-te-gadget-simple {
+    background-color: rgb(24, 26, 27);
+    border-color: rgb(76, 83, 86) rgb(60, 65, 67) rgb(54, 59, 61);
+}
+.goog-te-gadget-icon {
+    border-color: currentColor;
+    border-color: initial;
+}
+.goog-logo-link,
+.goog-logo-link:link,
+.goog-logo-link:visited,
+.goog-logo-link:hover,
+.goog-logo-link:active {
+    color: rgb(189, 183, 175);
+    -webkit-text-decoration-color: inherited;
+            text-decoration-color: inherited;
+    -webkit-text-decoration-color: initial;
+            text-decoration-color: initial;
+}
+.goog-te-banner {
+    background-color: rgb(33, 35, 37);
+}
+.goog-te-banner img {
+    border-color: currentColor;
+    border-color: initial;
+}
+.goog-te-banner-content {
+    color: rgb(232, 230, 227);
+}
+.goog-te-banner-info {
+    color: rgb(168, 160, 149);
+}
+.goog-te-button {
+    border-color: rgb(55, 59, 62);
+}
+.goog-te-button div {
+    border-color: rgb(62, 68, 70) rgb(77, 83, 86) rgb(77, 83, 86) rgb(62, 68, 70);
+}
+.goog-te-button button {
+    background-image: none;
+    background-image: initial;
+    background-color: transparent;
+    border-color: currentColor;
+    border-color: initial;
+}
+.goog-te-button button:active {
+    background-image: none;
+    background-color: rgb(53, 57, 59);
+}
+.goog-te-ftab {
+    background-color: rgb(24, 26, 27);
+}
+.goog-te-ftab-link {
+    -webkit-text-decoration-color: inherited;
+            text-decoration-color: inherited;
+    -webkit-text-decoration-color: initial;
+            text-decoration-color: initial;
+    border-color: rgb(82, 88, 92);
+}
+.goog-te-ftab-link img {
+    border-color: currentColor;
+    border-color: initial;
+}
+.goog-te-ftab-link span {
+    -webkit-text-decoration-color: inherited;
+            text-decoration-color: inherited;
+    -webkit-text-decoration-color: initial;
+            text-decoration-color: initial;
+}
+.goog-te-menu-value {
+    -webkit-text-decoration-color: inherited;
+            text-decoration-color: inherited;
+    -webkit-text-decoration-color: initial;
+            text-decoration-color: initial;
+    color: rgb(82, 145, 255);
+}
+.goog-te-menu-value span {
+    -webkit-text-decoration-color: inherited;
+            text-decoration-color: inherited;
+    -webkit-text-decoration-color: initial;
+            text-decoration-color: initial;
+}
+.goog-te-gadget-simple .goog-te-menu-value {
+    color: rgb(232, 230, 227);
+}
+.goog-te-gadget-simple .goog-te-menu-value span {
+    -webkit-text-decoration-color: inherited;
+            text-decoration-color: inherited;
+    -webkit-text-decoration-color: initial;
+            text-decoration-color: initial;
+}
+.goog-te-menu {
+    background-color: rgb(24, 26, 27);
+    -webkit-text-decoration-color: inherited;
+            text-decoration-color: inherited;
+    -webkit-text-decoration-color: initial;
+            text-decoration-color: initial;
+    border-color: rgb(0, 44, 120);
+}
+.goog-te-menu-item {
+    -webkit-text-decoration-color: inherited;
+            text-decoration-color: inherited;
+    -webkit-text-decoration-color: initial;
+            text-decoration-color: initial;
+}
+.goog-te-menu-item,
+.goog-te-menu-item:link {
+    color: rgb(82, 145, 255);
+    background-image: none;
+    background-image: initial;
+    background-color: rgb(24, 26, 27);
+}
+.goog-te-menu-item:visited {
+    color: rgb(174, 115, 229);
+}
+.goog-te-menu-item:hover {
+    background-image: none;
+    background-image: initial;
+    background-color: rgb(41, 44, 46);
+}
+.goog-te-menu-item:active {
+    color: rgb(82, 145, 255);
+}
+.goog-te-menu2 {
+    background-color: rgb(24, 26, 27);
+    -webkit-text-decoration-color: inherited;
+            text-decoration-color: inherited;
+    -webkit-text-decoration-color: initial;
+            text-decoration-color: initial;
+    border-color: rgb(32, 63, 126);
+}
+.goog-te-menu2-separator {
+    background-color: rgb(72, 78, 81);
+}
+.goog-te-menu2-item,
+.goog-te-menu2-item-selected {
+    -webkit-text-decoration-color: inherited;
+            text-decoration-color: inherited;
+    -webkit-text-decoration-color: initial;
+            text-decoration-color: initial;
+}
+.goog-te-menu2-item div,
+.goog-te-menu2-item:link div,
+.goog-te-menu2-item:visited div,
+.goog-te-menu2-item:active div {
+    color: rgb(82, 145, 255);
+    background-image: none;
+    background-image: initial;
+    background-color: rgb(24, 26, 27);
+}
+.goog-te-menu2-item:hover div {
+    color: rgb(232, 230, 227);
+    background-image: none;
+    background-image: initial;
+    background-color: rgb(41, 82, 163);
+}
+.goog-te-menu2-item-selected div,
+.goog-te-menu2-item-selected:link div,
+.goog-te-menu2-item-selected:visited div,
+.goog-te-menu2-item-selected:hover div,
+.goog-te-menu2-item-selected:active div {
+    color: rgb(232, 230, 227);
+}
+.goog-te-balloon {
+    background-color: rgb(24, 26, 27);
+    border-color: currentColor;
+    border-color: initial;
+}
+.goog-te-balloon-frame {
+    background-color: rgb(24, 26, 27);
+    border-color: rgb(32, 63, 126);
+    box-shadow: rgb(82, 88, 92) 0px 3px 8px 2px;
+}
+.goog-te-balloon img {
+    border-color: currentColor;
+    border-color: initial;
+}
+.goog-te-balloon-zippy .minus {
+    background-image: url("https://www.google.com/images/zippy_minus_sm.gif");
+}
+.goog-te-balloon-zippy .plus {
+    background-image: url("https://www.google.com/images/zippy_plus_sm.gif");
+}
+.goog-te-balloon-zippy span {
+    color: rgb(82, 145, 255);
+    -webkit-text-decoration-color: inherited;
+            text-decoration-color: inherited;
+    -webkit-text-decoration-color: initial;
+            text-decoration-color: initial;
+}
+.goog-te-spinner-animation {
+    background-image: url("https://www.gstatic.com/images/branding/product/2x/translate_24dp.png");
+    background-color: rgb(24, 26, 27);
+}
+.goog-te-spinner-path {
+    stroke: rgb(75, 160, 244);
+}
+#goog-gt-tt html,
+#goog-gt-tt body,
+#goog-gt-tt div,
+#goog-gt-tt span,
+#goog-gt-tt iframe,
+#goog-gt-tt h1,
+#goog-gt-tt h2,
+#goog-gt-tt h3,
+#goog-gt-tt h4,
+#goog-gt-tt h5,
+#goog-gt-tt h6,
+#goog-gt-tt p,
+#goog-gt-tt a,
+#goog-gt-tt img,
+#goog-gt-tt ol,
+#goog-gt-tt ul,
+#goog-gt-tt li,
+#goog-gt-tt table,
+#goog-gt-tt form,
+#goog-gt-tt tbody,
+#goog-gt-tt tr,
+#goog-gt-tt td {
+    border-color: currentColor;
+    border-color: initial;
+}
+#goog-gt-tt ol,
+#goog-gt-tt ul {
+    list-style-image: none;
+    list-style-image: initial;
+}
+#goog-gt-tt {
+    color: rgb(211, 207, 201);
+    background-color: rgb(24, 26, 27);
+    border-color: rgb(53, 57, 59);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 16px;
+}
+#goog-gt-tt .title {
+    color: rgb(168, 160, 149);
+}
+#goog-gt-tt .status-message {
+    background-image: none;
+    background-image: initial;
+    background-color: rgb(33, 116, 10);
+    box-shadow: rgb(24, 82, 7) 0px 2px 2px inset;
+    color: rgb(232, 230, 227);
+    text-shadow: rgb(24, 82, 7) 1px 1px 1px;
+}
+#goog-gt-tt .activity-link {
+    color: rgb(86, 163, 241);
+    -webkit-text-decoration-color: inherited;
+            text-decoration-color: inherited;
+    -webkit-text-decoration-color: initial;
+            text-decoration-color: initial;
+}
+#goog-gt-tt textarea {
+    border-color: rgb(66, 71, 74) rgb(59, 64, 66) rgb(59, 64, 66);
+}
+#goog-gt-tt textarea:focus {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 2px inset;
+    border-color: rgb(1, 59, 155);
+    outline-color: invert;
+    outline-color: initial;
+}
+#goog-gt-tt .translate-form .activity-form input {
+    border-color: rgba(140, 130, 115, 0.1);
+    color: rgb(189, 183, 175);
+    outline-color: invert;
+    outline-color: initial;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px;
+    background-color: rgb(30, 32, 33);
+    background-image: -webkit-linear-gradient(top,
+    rgb(30, 32, 33),
+    rgb(32, 35, 36));
+}
+#goog-gt-tt .translate-form .activity-form input:hover {
+    border-color: rgb(64, 69, 72);
+    color: rgb(211, 207, 201);
+    background-color: rgb(28, 30, 31);
+    background-image: -webkit-linear-gradient(top,
+    rgb(28, 30, 31),
+    rgb(32, 35, 36));
+}
+#goog-gt-tt .translate-form .activity-form input:active {
+    border-color: rgb(64, 69, 72);
+    color: rgb(200, 195, 188);
+    background-color: rgb(29, 32, 33);
+    background-image: -webkit-linear-gradient(top,
+    rgb(29, 32, 33),
+    rgb(32, 35, 36));
+}
+#goog-gt-tt .translate-form .activity-form input:focus,
+#goog-gt-tt .translate-form .activity-form input.focus {
+    outline-color: invert;
+    outline-color: initial;
+    border-color: rgb(1, 59, 155);
+}
+#goog-gt-tt .translate-form .activity-form input.selected {
+    background-color: rgb(34, 36, 38);
+    background-image: -webkit-linear-gradient(top,
+    rgb(34, 36, 38),
+    rgb(42, 45, 47));
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px inset;
+    border-color: rgb(62, 68, 70);
+    color: rgb(200, 195, 188);
+}
+#goog-gt-tt .translate-form .activity-form input.activity-submit {
+    color: rgb(232, 230, 227);
+    border-color: rgb(14, 69, 156);
+    background-color: rgb(1, 60, 158);
+    background-image: -webkit-linear-gradient(top,
+    rgb(1, 60, 158),
+    rgb(15, 70, 157));
+}
+#goog-gt-tt .translate-form .activity-form input.activity-submit:hover #goog-gt-tt .translate-form .activity-form input.activity-submit:focus,
+#goog-gt-tt .translate-form .activity-form input.activity-submit.focus #goog-gt-tt .translate-form .activity-form input.activity-submit:active {
+    border-color: rgb(14, 69, 156);
+    background-color: rgb(19, 76, 167);
+    background-image: -webkit-linear-gradient(top,
+    rgb(1, 60, 158),
+    rgb(19, 76, 167));
+}
+#goog-gt-tt .translate-form .activity-form input.activity-submit:hover {
+    box-shadow: rgb(24, 26, 27) 0px 0px 0px 1px inset,
+    rgba(0, 0, 0, 0.1) 0px 1px 1px;
+}
+#goog-gt-tt .translate-form .activity-form input:focus,
+#goog-gt-tt .translate-form .activity-form input.focus,
+#goog-gt-tt .translate-form .activity-form input:active,
+#goog-gt-tt .translate-form .activity-form input:hover,
+#goog-gt-tt .translate-form .activity-form input.activity-submit:focus,
+#goog-gt-tt .translate-form .activity-form input.activity-submit.focus,
+#goog-gt-tt .translate-form .activity-form input.activity-submit:active,
+#goog-gt-tt .translate-form .activity-form input.activity-submit:hover {
+    border-color: rgb(14, 69, 156);
+}
+#goog-gt-tt .gray {
+    color: rgb(168, 160, 149);
+}
+#goog-gt-tt .alt-helper-text {
+    color: rgb(168, 160, 149);
+}
+#goog-gt-tt .alt-error-text {
+    color: rgb(255, 109, 109);
+}
+.goog-text-highlight {
+    background-color: rgb(43, 47, 49);
+    box-shadow: rgb(77, 83, 86) 2px 2px 4px;
+}
+#goog-gt-tt .alt-menu.goog-menu {
+    background-image: none;
+    background-image: initial;
+    background-color: rgb(24, 26, 27);
+    border-color: rgb(58, 62, 65);
+    box-shadow: rgb(77, 83, 86) 0px 2px 4px;
+    outline-color: invert;
+    outline-color: initial;
+}
+#goog-gt-tt .alt-menu div.goog-menuitem:hover {
+    background-image: none;
+    background-image: initial;
+    background-color: rgb(43, 47, 49);
+}
+#goog-gt-tt .alt-menu .goog-menuitem strong {
+    color: rgb(112, 160, 212);
+}
+#goog-gt-tt .gt-hl-text,
+#goog-gt-tt .trans-target-highlight {
+    background-color: rgb(193, 187, 0);
+    box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 4px;
+    color: rgb(255, 249, 35);
+}
+#goog-gt-tt .trans-target-highlight {
+    color: rgb(211, 207, 201);
+}
+#goog-gt-tt .gt-hl-layer {
+    color: rgb(232, 230, 227);
+}
+#goog-gt-tt .trans-target,
+#goog-gt-tt .trans-target .trans-target-highlight {
+    background-color: rgb(43, 47, 49);
+    box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 4px;
+}
+#goog-gt-tt span:focus {
+    outline-color: invert;
+    outline-color: initial;
+}
+#goog-gt-tt .trans-edit {
+    background-color: transparent;
+    border-color: rgb(1, 59, 155);
+}
+#goog-gt-tt .gt-trans-highlight-l {
+    border-left-color: rgb(179, 0, 0);
+}
+#goog-gt-tt .gt-trans-highlight-r {
+    border-right-color: rgb(179, 0, 0);
+}
+#goog-gt-tt #alt-input-text {
+    background-color: rgb(24, 26, 27);
+    color: rgb(200, 195, 188);
+    border-color: rgb(66, 71, 74) rgb(59, 64, 66) rgb(59, 64, 66);
+}
+#goog-gt-tt #alt-input-text:hover {
+    border-color: rgb(75, 81, 84) rgb(68, 73, 76) rgb(68, 73, 76);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px inset;
+}
+#goog-gt-tt #alt-input-text:focus {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 2px inset;
+    outline-color: invert;
+    outline-color: initial;
+    border-color: rgb(1, 59, 155);
+}
+
+/* Override Style */
+.vimvixen-hint {
+    background-color: #7b5300 !important;
+    border-color: #d8b013 !important;
+    color: #f3e8c8 !important;
+}
+::-moz-placeholder {
+    opacity: 0.5 !important;
+}
+:-ms-input-placeholder {
+    opacity: 0.5 !important;
+}
+::placeholder {
+    opacity: 0.5 !important;
+}
+a[href="https://coinmarketcap.com/"] > svg[width="94"][height="16"] > path {
+    fill: #d8d4cf !important;
+    fill: var(--darkreader-neutral-text) !important;
+}
+#edge-translate-panel-body,
+.MuiTypography-body1 {
+    color: #d8d4cf !important;
+    color: var(--darkreader-neutral-text) !important;
+}
+gr-main-header {
+    background-color: #0f3a48 !important;
+}
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }
+
 /*!
  * Materialize v1.0.0-rc.2 (http://materializecss.com)
  * Copyright 2014-2017 Materialize
